@@ -1,11 +1,11 @@
 {
   "api_url": "https://genshin-impact.fandom.com/api.php",
   "categories": [
-    "Category:Normal_Bosses"
+    "Category:Playable_Characters",
+    "Category:Normal_Bosses",
+    "Category:Weekly_Bosses"
   ],
   "page_limit": 150,
-  "section_name": "Other Languages",
   "sleep_between_calls": 0.5,
-  "sleep_time": 1.0,
   "output_dir": "data"
 }
