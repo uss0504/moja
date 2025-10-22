@@ -3,14 +3,14 @@
         "pageid": 832,
         "ns": 0,
         "title": "Aether",
-        "weight": 1
+        "weight": 0
     },
     {
         "pageid": 383745,
         "ns": 0,
         "title": "Aino",
         "ko_text": "아이노 (테스트)",
-        "ko": "아이노 (테스트)",
+        "ko": "아이노",
         "weight": 1
     },
     {
@@ -58,7 +58,7 @@
         "ns": 0,
         "title": "Arlecchino",
         "ko_text": "아를레키노 하인 페르엘",
-        "ko": "아를레키노 하인 페르엘",
+        "ko": "아를레키노",
         "weight": 1
     },
     {
@@ -250,7 +250,7 @@
         "ns": 0,
         "title": "Fischl",
         "ko_text": "피슬 에이미",
-        "ko": "피슬 에이미",
+        "ko": "피슬",
         "weight": 1
     },
     {
@@ -258,7 +258,7 @@
         "ns": 0,
         "title": "Flins",
         "ko_text": "키릴 추도미로비치 플린스",
-        "ko": "키릴 추도미로비치 플린스",
+        "ko": "플린스",
         "weight": 1
     },
     {
@@ -473,7 +473,7 @@
         "pageid": 833,
         "ns": 0,
         "title": "Lumine",
-        "weight": 1
+        "weight": 0
     },
     {
         "pageid": 15926,
@@ -496,7 +496,7 @@
         "ns": 0,
         "title": "Mavuika",
         "ko_text": "마비카 하보림 키온고지",
-        "ko": "마비카 하보림 키온고지",
+        "ko": "마비카",
         "weight": 1
     },
     {
@@ -680,7 +680,7 @@
         "ns": 0,
         "title": "Sucrose",
         "ko_text": "설탕 설탕( 사탕(",
-        "ko": "설탕 설탕( 사탕(",
+        "ko": "설탕",
         "weight": 1
     },
     {
@@ -688,7 +688,7 @@
         "ns": 0,
         "title": "Tartaglia",
         "ko_text": "타르탈리아 귀공자",
-        "ko": "타르탈리아 귀공자",
+        "ko": "타르탈리아",
         "weight": 1
     },
     {
@@ -712,50 +712,57 @@
         "ns": 0,
         "title": "Traveler",
         "ko_text": "여행자 아이테르 형 공 아이테르 루미네 루미네",
-        "ko": "여행자 아이테르 형 공 아이테르 루미네 루미네",
-        "weight": 1
+        "ko": "여행자",
+        "weight": 0
     },
     {
         "pageid": 20855,
         "ns": 0,
         "title": "Traveler (Anemo)",
-        "weight": 1
+        "weight": 1,
+        "ko": "여행자 (바람)"
     },
     {
         "pageid": 148629,
         "ns": 0,
         "title": "Traveler (Dendro)",
-        "weight": 1
+        "weight": 1,
+        "ko": "여행자 (풀)"
     },
     {
         "pageid": 66912,
         "ns": 0,
         "title": "Traveler (Electro)",
-        "weight": 1
+        "weight": 1,
+        "ko": "여행자 (번개)"
     },
     {
         "pageid": 20854,
         "ns": 0,
         "title": "Traveler (Geo)",
-        "weight": 1
+        "weight": 1,
+        "ko": "여행자 (바위)"
     },
     {
         "pageid": 241454,
         "ns": 0,
         "title": "Traveler (Hydro)",
-        "weight": 1
+        "weight": 1,
+        "ko": "여행자 (물)"
     },
     {
         "pageid": 350860,
         "ns": 0,
         "title": "Traveler (Pyro)",
-        "weight": 1
+        "weight": 1,
+        "ko": "여행자 (불)"
     },
     {
         "pageid": 21260,
         "ns": 0,
         "title": "Traveler (Unaligned)",
-        "weight": 1
+        "weight": 0,
+        "ko": "여행자 (무속성)"
     },
     {
         "pageid": 350191,
@@ -786,7 +793,7 @@
         "ns": 0,
         "title": "Wonderland Manekin",
         "ko_text": "별인형 별인형 별인형·남성-- 별인형 별인형·여성--",
-        "ko": "별인형 별인형 별인형·남성-- 별인형 별인형·여성--",
+        "ko": "별인형",
         "weight": 1
     },
     {
@@ -810,7 +817,7 @@
         "ns": 0,
         "title": "Xianyun",
         "ko_text": "한운 한( 운-- 류운차풍진군",
-        "ko": "한운 한( 운-- 류운차풍진군",
+        "ko": "한운",
         "weight": 1
     },
     {

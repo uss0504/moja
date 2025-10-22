@@ -4,6 +4,8 @@
     "Category:Normal_Bosses"
   ],
   "page_limit": 150,
+  "section_name": "Other Languages",
   "sleep_between_calls": 0.5,
+  "sleep_time": 1.0,
   "output_dir": "data"
 }

@@ -1,3 +1,5 @@
+# 데이터 가공 스크립트(수동번역용 탭 추가, 가중치 추가)
+
 import json
 #import shutil   # 파일 백업용 (옵션)
 #import copy     # 필요하면 깊은 복사
