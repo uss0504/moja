@@ -13,10 +13,20 @@ selected_obj = random.choices(items, weights=weights, k=1)[0]
 
 # ④ `ko` 필드만 뽑아 출력
 ko_value = selected_obj.get('ko')
+ko_text_value = selected_obj.get('ko_text')
+en_value = selected_obj.get('title')
 if ko_value is not None:
     print("가중치에 따라 선택된 **ko** 내용:")
     print(ko_value)              # 문자열, 혹은 다른 객체가 들어있을 수도 있음
 else:
-    # 가중치가 있는 객체지만 `ko` 가 없을 경우
-    print("`ko` 값이 없습니다.")
-    print(json.dumps(selected_obj, ensure_ascii=False, indent=4))
+    if ko_text_value is not None:
+        print("**ko_text(위키 번역)** 내용")
+        print(ko_text_value)
+    else:
+        if en_value is not None:
+            print("**en(위키 제목)** 내용")
+            print(en_value)
+        else:
+        # 가중치가 있는 객체지만 `ko` 가 없을 경우
+            print("값이 없습니다.")
+            print(json.dumps(selected_obj, ensure_ascii=False, indent=4))
