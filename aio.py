@@ -188,15 +188,13 @@ def main():
         file_name = cat.replace(":", "_") + "_ko.json"
         file_path = OUTPUT_DIR / file_name
         # 기존 코드
-    # with file_path.open("w", encoding="utf-8") as f:
-    #     json.dump(updated, f, ensure_ascii=False, indent=2)
-
-    # 교체 코드
-    merged = merge_with_existing_json(updated, file_path)
-    with file_path.open("w", encoding="utf-8") as f:
-      json.dump(merged, f, ensure_ascii=False, indent=2)
-
-    print(f"💾 병합 후 저장 완료: {file_path} (총 {len(merged)}개 항목)")
+        # with file_path.open("w", encoding="utf-8") as f:
+        #     json.dump(updated, f, ensure_ascii=False, indent=2)
+        # 교체 코드
+        merged = merge_with_existing_json(updated, file_path)
+        with file_path.open("w", encoding="utf-8") as f:
+            json.dump(merged, f, ensure_ascii=False, indent=2)
+        print(f"💾 병합 후 저장 완료: {file_path} (총 {len(merged)}개 항목)")
 
     print("\n✅ 모든 카테고리 처리 완료.")
 
