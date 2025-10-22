@@ -1,0 +1,690 @@
+[
+  {
+    "pageid": 832,
+    "ns": 0,
+    "title": "Aether"
+  },
+  {
+    "pageid": 383745,
+    "ns": 0,
+    "title": "Aino",
+    "ko_text": "아이노(지워져야 하는 텍스트)",
+    "ko": "이건 남아있어야함."
+  },
+  {
+    "pageid": 15003,
+    "ns": 0,
+    "title": "Albedo",
+    "ko_text": "알베도"
+  },
+  {
+    "pageid": 151669,
+    "ns": 0,
+    "title": "Alhaitham",
+    "ko_text": "알하이탐"
+  },
+  {
+    "pageid": 67688,
+    "ns": 0,
+    "title": "Aloy",
+    "ko_text": "에일로이"
+  },
+  {
+    "pageid": 132,
+    "ns": 0,
+    "title": "Amber",
+    "ko_text": "엠버"
+  },
+  {
+    "pageid": 68837,
+    "ns": 0,
+    "title": "Arataki Itto",
+    "ko_text": "아라타키 이토"
+  },
+  {
+    "pageid": 117187,
+    "ns": 0,
+    "title": "Arlecchino",
+    "ko_text": "아를레키노 하인 페르엘"
+  },
+  {
+    "pageid": 1810,
+    "ns": 0,
+    "title": "Baizhu",
+    "ko_text": "백출"
+  },
+  {
+    "pageid": 155,
+    "ns": 0,
+    "title": "Barbara",
+    "ko_text": "바바라"
+  },
+  {
+    "pageid": 239,
+    "ns": 0,
+    "title": "Beidou",
+    "ko_text": "북두"
+  },
+  {
+    "pageid": 280,
+    "ns": 0,
+    "title": "Bennett",
+    "ko_text": "베넷"
+  },
+  {
+    "pageid": 155051,
+    "ns": 0,
+    "title": "Candace",
+    "ko_text": "캔디스"
+  },
+  {
+    "pageid": 228387,
+    "ns": 0,
+    "title": "Charlotte",
+    "ko_text": "샤를로트"
+  },
+  {
+    "pageid": 316435,
+    "ns": 0,
+    "title": "Chasca",
+    "ko_text": "차스카"
+  },
+  {
+    "pageid": 246332,
+    "ns": 0,
+    "title": "Chevreuse",
+    "ko_text": "슈브르즈"
+  },
+  {
+    "pageid": 229042,
+    "ns": 0,
+    "title": "Chiori",
+    "ko_text": "치오리"
+  },
+  {
+    "pageid": 512,
+    "ns": 0,
+    "title": "Chongyun",
+    "ko_text": "중운"
+  },
+  {
+    "pageid": 316439,
+    "ns": 0,
+    "title": "Citlali",
+    "ko_text": "시틀라리"
+  },
+  {
+    "pageid": 236145,
+    "ns": 0,
+    "title": "Clorinde",
+    "ko_text": "클로린드"
+  },
+  {
+    "pageid": 444,
+    "ns": 0,
+    "title": "Collei",
+    "ko_text": "콜레이"
+  },
+  {
+    "pageid": 3311,
+    "ns": 0,
+    "title": "Cyno",
+    "ko_text": "사이노"
+  },
+  {
+    "pageid": 263806,
+    "ns": 0,
+    "title": "Dahlia",
+    "ko_text": "달리아"
+  },
+  {
+    "pageid": 151676,
+    "ns": 0,
+    "title": "Dehya",
+    "ko_text": "데히야"
+  },
+  {
+    "pageid": 151,
+    "ns": 0,
+    "title": "Diluc",
+    "ko_text": "다이루크"
+  },
+  {
+    "pageid": 7121,
+    "ns": 0,
+    "title": "Diona",
+    "ko_text": "디오나"
+  },
+  {
+    "pageid": 144336,
+    "ns": 0,
+    "title": "Dori",
+    "ko_text": "도리"
+  },
+  {
+    "pageid": 244769,
+    "ns": 0,
+    "title": "Emilie",
+    "ko_text": "에밀리"
+  },
+  {
+    "pageid": 366780,
+    "ns": 0,
+    "title": "Escoffier",
+    "ko_text": "에스코피에"
+  },
+  {
+    "pageid": 45761,
+    "ns": 0,
+    "title": "Eula",
+    "ko_text": "유라"
+  },
+  {
+    "pageid": 175366,
+    "ns": 0,
+    "title": "Faruzan",
+    "ko_text": "파루잔"
+  },
+  {
+    "pageid": 230,
+    "ns": 0,
+    "title": "Fischl",
+    "ko_text": "피슬 에이미"
+  },
+  {
+    "pageid": 384166,
+    "ns": 0,
+    "title": "Flins",
+    "ko_text": "키릴 추도미로비치 플린스"
+  },
+  {
+    "pageid": 236174,
+    "ns": 0,
+    "title": "Freminet",
+    "ko_text": "프레미네"
+  },
+  {
+    "pageid": 236143,
+    "ns": 0,
+    "title": "Furina",
+    "ko_text": "푸리나"
+  },
+  {
+    "pageid": 276281,
+    "ns": 0,
+    "title": "Gaming",
+    "ko_text": "가명"
+  },
+  {
+    "pageid": 1791,
+    "ns": 0,
+    "title": "Ganyu",
+    "ko_text": "감우"
+  },
+  {
+    "pageid": 61982,
+    "ns": 0,
+    "title": "Gorou",
+    "ko_text": "고로"
+  },
+  {
+    "pageid": 14745,
+    "ns": 0,
+    "title": "Hu Tao",
+    "ko_text": "호두"
+  },
+  {
+    "pageid": 15925,
+    "ns": 0,
+    "title": "Iansan",
+    "ko_text": "얀사"
+  },
+  {
+    "pageid": 324043,
+    "ns": 0,
+    "title": "Ifa",
+    "ko_text": "이파"
+  },
+  {
+    "pageid": 382551,
+    "ns": 0,
+    "title": "Ineffa",
+    "ko_text": "이네파"
+  },
+  {
+    "pageid": 141,
+    "ns": 0,
+    "title": "Jean",
+    "ko_text": "진"
+  },
+  {
+    "pageid": 316433,
+    "ns": 0,
+    "title": "Kachina",
+    "ko_text": "카치나"
+  },
+  {
+    "pageid": 56633,
+    "ns": 0,
+    "title": "Kaedehara Kazuha",
+    "ko_text": "카에데하라 카즈하"
+  },
+  {
+    "pageid": 130,
+    "ns": 0,
+    "title": "Kaeya",
+    "ko_text": "케이아"
+  },
+  {
+    "pageid": 472,
+    "ns": 0,
+    "title": "Kamisato Ayaka",
+    "ko_text": "카미사토 아야카"
+  },
+  {
+    "pageid": 60191,
+    "ns": 0,
+    "title": "Kamisato Ayato",
+    "ko_text": "카미사토 아야토"
+  },
+  {
+    "pageid": 157099,
+    "ns": 0,
+    "title": "Kaveh",
+    "ko_text": "카베"
+  },
+  {
+    "pageid": 1858,
+    "ns": 0,
+    "title": "Keqing",
+    "ko_text": "각청"
+  },
+  {
+    "pageid": 316432,
+    "ns": 0,
+    "title": "Kinich",
+    "ko_text": "키니치"
+  },
+  {
+    "pageid": 219692,
+    "ns": 0,
+    "title": "Kirara",
+    "ko_text": "키라라"
+  },
+  {
+    "pageid": 251,
+    "ns": 0,
+    "title": "Klee",
+    "ko_text": "클레"
+  },
+  {
+    "pageid": 61983,
+    "ns": 0,
+    "title": "Kujou Sara",
+    "ko_text": "쿠죠 사라"
+  },
+  {
+    "pageid": 74453,
+    "ns": 0,
+    "title": "Kuki Shinobu",
+    "ko_text": "쿠키 시노부"
+  },
+  {
+    "pageid": 349121,
+    "ns": 0,
+    "title": "Lan Yan",
+    "ko_text": "남연"
+  },
+  {
+    "pageid": 383744,
+    "ns": 0,
+    "title": "Lauma",
+    "ko_text": "라우마"
+  },
+  {
+    "pageid": 168576,
+    "ns": 0,
+    "title": "Layla",
+    "ko_text": "레일라"
+  },
+  {
+    "pageid": 140,
+    "ns": 0,
+    "title": "Lisa",
+    "ko_text": "리사"
+  },
+  {
+    "pageid": 833,
+    "ns": 0,
+    "title": "Lumine"
+  },
+  {
+    "pageid": 15926,
+    "ns": 0,
+    "title": "Lynette",
+    "ko_text": "리넷"
+  },
+  {
+    "pageid": 15927,
+    "ns": 0,
+    "title": "Lyney",
+    "ko_text": "리니"
+  },
+  {
+    "pageid": 316436,
+    "ns": 0,
+    "title": "Mavuika",
+    "ko_text": "마비카 하보림 키온고지"
+  },
+  {
+    "pageid": 167228,
+    "ns": 0,
+    "title": "Mika",
+    "ko_text": "미카"
+  },
+  {
+    "pageid": 1854,
+    "ns": 0,
+    "title": "Mona",
+    "ko_text": "모나"
+  },
+  {
+    "pageid": 316434,
+    "ns": 0,
+    "title": "Mualani",
+    "ko_text": "말라니"
+  },
+  {
+    "pageid": 151675,
+    "ns": 0,
+    "title": "Nahida",
+    "ko_text": "나히다"
+  },
+  {
+    "pageid": 236161,
+    "ns": 0,
+    "title": "Navia",
+    "ko_text": "나비아"
+  },
+  {
+    "pageid": 384167,
+    "ns": 0,
+    "title": "Nefer",
+    "ko_text": "네페르"
+  },
+  {
+    "pageid": 168604,
+    "ns": 0,
+    "title": "Neuvillette",
+    "ko_text": "느비예트"
+  },
+  {
+    "pageid": 151671,
+    "ns": 0,
+    "title": "Nilou",
+    "ko_text": "닐루"
+  },
+  {
+    "pageid": 242,
+    "ns": 0,
+    "title": "Ningguang",
+    "ko_text": "응광"
+  },
+  {
+    "pageid": 156,
+    "ns": 0,
+    "title": "Noelle",
+    "ko_text": "노엘"
+  },
+  {
+    "pageid": 316438,
+    "ns": 0,
+    "title": "Ororon",
+    "ko_text": "올로룬"
+  },
+  {
+    "pageid": 1835,
+    "ns": 0,
+    "title": "Qiqi",
+    "ko_text": "치치"
+  },
+  {
+    "pageid": 16028,
+    "ns": 0,
+    "title": "Raiden Shogun",
+    "ko_text": "라이덴 쇼군"
+  },
+  {
+    "pageid": 176,
+    "ns": 0,
+    "title": "Razor",
+    "ko_text": "레이저"
+  },
+  {
+    "pageid": 15024,
+    "ns": 0,
+    "title": "Rosaria",
+    "ko_text": "로자리아"
+  },
+  {
+    "pageid": 63989,
+    "ns": 0,
+    "title": "Sangonomiya Kokomi",
+    "ko_text": "산고노미야 코코미"
+  },
+  {
+    "pageid": 57432,
+    "ns": 0,
+    "title": "Sayu",
+    "ko_text": "사유"
+  },
+  {
+    "pageid": 301808,
+    "ns": 0,
+    "title": "Sethos",
+    "ko_text": "세토스"
+  },
+  {
+    "pageid": 96984,
+    "ns": 0,
+    "title": "Shenhe",
+    "ko_text": "신학"
+  },
+  {
+    "pageid": 68079,
+    "ns": 0,
+    "title": "Shikanoin Heizou",
+    "ko_text": "시카노인 헤이조"
+  },
+  {
+    "pageid": 236166,
+    "ns": 0,
+    "title": "Sigewinne",
+    "ko_text": "시그윈"
+  },
+  {
+    "pageid": 26731,
+    "ns": 0,
+    "title": "Skirk",
+    "ko_text": "스커크"
+  },
+  {
+    "pageid": 1609,
+    "ns": 0,
+    "title": "Sucrose",
+    "ko_text": "설탕 설탕( 사탕("
+  },
+  {
+    "pageid": 2180,
+    "ns": 0,
+    "title": "Tartaglia",
+    "ko_text": "타르탈리아 귀공자"
+  },
+  {
+    "pageid": 63994,
+    "ns": 0,
+    "title": "Thoma",
+    "ko_text": "토마"
+  },
+  {
+    "pageid": 144326,
+    "ns": 0,
+    "title": "Tighnari",
+    "ko_text": "타이나리"
+  },
+  {
+    "pageid": 136,
+    "ns": 0,
+    "title": "Traveler",
+    "ko_text": "여행자 아이테르 형 공 아이테르 루미네 루미네"
+  },
+  {
+    "pageid": 20855,
+    "ns": 0,
+    "title": "Traveler (Anemo)"
+  },
+  {
+    "pageid": 148629,
+    "ns": 0,
+    "title": "Traveler (Dendro)"
+  },
+  {
+    "pageid": 66912,
+    "ns": 0,
+    "title": "Traveler (Electro)"
+  },
+  {
+    "pageid": 20854,
+    "ns": 0,
+    "title": "Traveler (Geo)"
+  },
+  {
+    "pageid": 241454,
+    "ns": 0,
+    "title": "Traveler (Hydro)"
+  },
+  {
+    "pageid": 350860,
+    "ns": 0,
+    "title": "Traveler (Pyro)"
+  },
+  {
+    "pageid": 21260,
+    "ns": 0,
+    "title": "Traveler (Unaligned)"
+  },
+  {
+    "pageid": 350191,
+    "ns": 0,
+    "title": "Varesa",
+    "ko_text": "바레사"
+  },
+  {
+    "pageid": 216,
+    "ns": 0,
+    "title": "Venti",
+    "ko_text": "벤티"
+  },
+  {
+    "pageid": 179077,
+    "ns": 0,
+    "title": "Wanderer",
+    "ko_text": "방랑자"
+  },
+  {
+    "pageid": 408444,
+    "ns": 0,
+    "title": "Wonderland Manekin",
+    "ko_text": "별인형 별인형 별인형·남성-- 별인형 별인형·여성--"
+  },
+  {
+    "pageid": 236151,
+    "ns": 0,
+    "title": "Wriothesley",
+    "ko_text": "라이오슬리"
+  },
+  {
+    "pageid": 224,
+    "ns": 0,
+    "title": "Xiangling",
+    "ko_text": "향릉"
+  },
+  {
+    "pageid": 276277,
+    "ns": 0,
+    "title": "Xianyun",
+    "ko_text": "한운 한( 운-- 류운차풍진군"
+  },
+  {
+    "pageid": 227,
+    "ns": 0,
+    "title": "Xiao",
+    "ko_text": "소"
+  },
+  {
+    "pageid": 316437,
+    "ns": 0,
+    "title": "Xilonen",
+    "ko_text": "실로닌"
+  },
+  {
+    "pageid": 246,
+    "ns": 0,
+    "title": "Xingqiu",
+    "ko_text": "행추"
+  },
+  {
+    "pageid": 13692,
+    "ns": 0,
+    "title": "Xinyan",
+    "ko_text": "신염"
+  },
+  {
+    "pageid": 20337,
+    "ns": 0,
+    "title": "Yae Miko",
+    "ko_text": "야에 미코"
+  },
+  {
+    "pageid": 45762,
+    "ns": 0,
+    "title": "Yanfei",
+    "ko_text": "연비"
+  },
+  {
+    "pageid": 14602,
+    "ns": 0,
+    "title": "Yaoyao",
+    "ko_text": "요요"
+  },
+  {
+    "pageid": 127111,
+    "ns": 0,
+    "title": "Yelan",
+    "ko_text": "야란"
+  },
+  {
+    "pageid": 57433,
+    "ns": 0,
+    "title": "Yoimiya",
+    "ko_text": "요이미야"
+  },
+  {
+    "pageid": 357412,
+    "ns": 0,
+    "title": "Yumemizuki Mizuki",
+    "ko_text": "유메미즈키 미즈키"
+  },
+  {
+    "pageid": 14942,
+    "ns": 0,
+    "title": "Yun Jin",
+    "ko_text": "운근"
+  },
+  {
+    "pageid": 1837,
+    "ns": 0,
+    "title": "Zhongli",
+    "ko_text": "종려"
+  }
+]
