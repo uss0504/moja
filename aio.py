@@ -143,6 +143,32 @@ def extract_ko_for_pages(pages: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         time.sleep(SLEEP_TIME)
     return updated
 
+def merge_with_existing_json(new_data: List[Dict[str, Any]], file_path: pathlib.Path) -> List[Dict[str, Any]]:
+    """기존 JSON 파일과 병합:
+       - pageid 기준으로 기존 데이터 유지
+       - 새 데이터의 ko_text 업데이트 / 신규 추가"""
+    if file_path.exists():
+        try:
+            with file_path.open("r", encoding="utf-8") as f:
+                old_data = json.load(f)
+        except Exception:
+            old_data = []
+    else:
+        old_data = []
+
+    old_by_id = {item["pageid"]: item for item in old_data if "pageid" in item}
+
+    for new_item in new_data:
+        pid = new_item.get("pageid")
+        if pid in old_by_id:
+            old_by_id[pid].update(new_item)  # ko_text 등 새 데이터 덮어쓰기
+        else:
+            old_by_id[pid] = new_item  # 새 항목 추가
+
+    merged = list(old_by_id.values())
+    return merged
+
+
 # ─────────────────────────────────────────────────────────────
 # 5️⃣ 메인
 # ─────────────────────────────────────────────────────────────
@@ -161,9 +187,16 @@ def main():
 
         file_name = cat.replace(":", "_") + "_ko.json"
         file_path = OUTPUT_DIR / file_name
-        with file_path.open("w", encoding="utf-8") as f:
-            json.dump(updated, f, ensure_ascii=False, indent=2)
-        print(f"💾 저장 완료: {file_path}")
+        # 기존 코드
+    # with file_path.open("w", encoding="utf-8") as f:
+    #     json.dump(updated, f, ensure_ascii=False, indent=2)
+
+    # 교체 코드
+    merged = merge_with_existing_json(updated, file_path)
+    with file_path.open("w", encoding="utf-8") as f:
+      json.dump(merged, f, ensure_ascii=False, indent=2)
+
+    print(f"💾 병합 후 저장 완료: {file_path} (총 {len(merged)}개 항목)")
 
     print("\n✅ 모든 카테고리 처리 완료.")
 
