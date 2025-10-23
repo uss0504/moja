@@ -4,7 +4,7 @@ import os
 
 # ① JSON 파일 읽기
 with open('data/Category_Normal_Bosses_ko.json', 'r', encoding='utf-8') as f:
-    items = json.load(f)          # items는 list
+    items = json.load(f)
 
 # ② 가중치 리스트 생성 (가중치가 없으면 기본값 1)
 weights = [obj.get('weight', 1) for obj in items]
@@ -29,7 +29,7 @@ else:
             print(en_value)
         else:
         # 가중치가 있는 객체지만 `ko` 가 없을 경우
-            #print("값이 없습니다.")
+            print("값이 없습니다.")
             print(json.dumps(selected_obj, ensure_ascii=False, indent=4))
 
 os.system("pause")

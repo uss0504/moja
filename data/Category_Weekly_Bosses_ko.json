@@ -10,7 +10,7 @@
         "ns": 0,
         "title": "All-Devouring Narwhal",
         "ko_text": "별을 삼킨 고래",
-        "ko": "별을 삼킨 고래",
+        "ko": "(주보)(주보)별을 삼킨 고래",
         "weight": 1
     },
     {
@@ -18,14 +18,14 @@
         "ns": 0,
         "title": "Andrius",
         "ko_text": "안드리우스 북풍 의 왕랑 울프 의 영주",
-        "ko": "안드리우스",
+        "ko": "(주보)안드리우스",
         "weight": 1
     },
     {
         "pageid": 45884,
         "ns": 0,
         "title": "Azhdaha (Weekly Boss)",
-        "ko": "야타용왕",
+        "ko": "(주보)야타용왕",
         "weight": 1
     },
     {
@@ -33,7 +33,7 @@
         "ns": 0,
         "title": "Childe",
         "ko_text": "귀공자",
-        "ko": "타르탈리아",
+        "ko": "(주보)타르탈리아",
         "weight": 1
     },
     {
@@ -41,7 +41,7 @@
         "ns": 0,
         "title": "Everlasting Lord of Arcane Wisdom",
         "ko_text": "칠엽 적조 의 비밀주 정기( 의 신",
-        "ko": "정기의 신",
+        "ko": "(주보)정기의 신",
         "weight": 1
     },
     {
@@ -49,7 +49,7 @@
         "ns": 0,
         "title": "Guardian of Apep's Oasis",
         "ko_text": "종막 오아시스 의 파수꾼 기원 오아시스 의 파수꾼 아펩 의 오아시스 파수꾼",
-        "ko": "아펩",
+        "ko": "(주보)아펩",
         "weight": 1
     },
     {
@@ -57,7 +57,7 @@
         "ns": 0,
         "title": "La Signora",
         "ko_text": "시뇨라 사그라든 화염 의 마녀",
-        "ko": "시뇨라",
+        "ko": "(주보)시뇨라",
         "weight": 1
     },
     {
@@ -65,7 +65,7 @@
         "ns": 0,
         "title": "Lord of Eroded Primal Fire",
         "ko_text": "침식된 근원의 불꽃 주인",
-        "ko": "침식된 근원의 불꽃 주인(그소요토스)",
+        "ko": "(주보)침식된 근원의 불꽃 주인(그소요토스)",
         "weight": 1
     },
     {
@@ -73,7 +73,7 @@
         "ns": 0,
         "title": "Magatsu Mitake Narukami no Mikoto",
         "ko_text": "마가츠 미타케 나루카미 노 미코토",
-        "ko": "라이덴",
+        "ko": "(주보)라이덴",
         "weight": 1
     },
     {
@@ -81,7 +81,7 @@
         "ns": 0,
         "title": "Stormterror Dvalin",
         "ko_text": "열공의 마룡",
-        "ko": "드발린",
+        "ko": "(주보)드발린",
         "weight": 1
     },
     {
@@ -89,7 +89,7 @@
         "ns": 0,
         "title": "The Game Before the Gate",
         "ko_text": "문 앞 의 체스 매치 체스 킹 체스 퀸 승격한 킹 승화한 퀸",
-        "ko": "문앞의 체스 매치",
+        "ko": "(주보)문앞의 체스 매치",
         "weight": 1
     },
     {
@@ -97,7 +97,7 @@
         "ns": 0,
         "title": "The Knave",
         "ko_text": "아를레키노 두 세계 불의 잔재",
-        "ko": "아를레키노",
+        "ko": "(주보)아를레키노",
         "weight": 1
     }
 ]
