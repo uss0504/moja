@@ -10,7 +10,7 @@
         "ns": 0,
         "title": "All-Devouring Narwhal",
         "ko_text": "별을 삼킨 고래",
-        "ko": "(주보)(주보)별을 삼킨 고래",
+        "ko": "(주보)별을 삼킨 고래",
         "weight": 1
     },
     {
@@ -19,7 +19,7 @@
         "title": "Andrius",
         "ko_text": "안드리우스 북풍 의 왕랑 울프 의 영주",
         "ko": "(주보)안드리우스",
-        "weight": 1
+        "weight": 0.5
     },
     {
         "pageid": 45884,
