@@ -19,7 +19,7 @@
         "title": "Aeonblight Drake",
         "ko_text": "영겁 의 드레이크",
         "ko": "영겁의 드레이크",
-        "weight": 0.7
+        "weight": 0.8
     },
     {
         "pageid": 167221,
@@ -35,7 +35,7 @@
         "title": "Anemo Hypostasis",
         "ko_text": "무상 의 바람",
         "ko": "무상의 바람",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 112881,
@@ -51,7 +51,7 @@
         "title": "Cryo Hypostasis",
         "ko_text": "무상의 얼음",
         "ko": "무상의 얼음",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 3828,
@@ -67,7 +67,7 @@
         "title": "Dendro Hypostasis",
         "ko_text": "무상의 풀",
         "ko": "무상의 풀",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 372,
@@ -75,7 +75,7 @@
         "title": "Electro Hypostasis",
         "ko_text": "무 상 의 뇌 전",
         "ko": "무상의 뇌전",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 144162,
@@ -131,7 +131,7 @@
         "title": "Hydro Hypostasis",
         "ko_text": "무상 의 물",
         "ko": "무상의 물",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 265820,
@@ -150,7 +150,7 @@
         "weight": 1
     },
     {
-        "pageid": 241257,
+        "pageid": 241258,
         "ns": 0,
         "title": "Icewind Suite",
         "ko_text": "얼음 바람 모음곡 코펠리아 의 장송 코펠리우스 의 겁벌",
@@ -243,7 +243,7 @@
         "title": "Pyro Hypostasis",
         "ko_text": "무상의 불",
         "ko": "무상의 불",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 2371,
@@ -275,7 +275,7 @@
         "title": "Ruin Serpent",
         "ko_text": "유적 의 뱀",
         "ko": "유적의 뱀(층암 거연)",
-        "weight": 0.5
+        "weight": 0.3
     },
     {
         "pageid": 335063,
@@ -299,7 +299,7 @@
         "title": "Setekh Wenut",
         "ko_text": "바람 침식 모래 벌레",
         "ko": "바람 침식 모래 벌레", 
-        "weight": 0.5
+        "weight": 0.3
     },
     {
         "pageid": 283218,
@@ -331,6 +331,6 @@
         "title": "Wayward Hermetic Spiritspeaker",
         "ko_text": "수수께끼 영력 수행자",
         "ko": "수수께끼 영력 수행자",
-        "weight": 1
+        "weight": 0.5
     }
 ]

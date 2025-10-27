@@ -47,4 +47,4 @@ else:
     print("값이 없습니다.")
     print(json.dumps(selected_obj, ensure_ascii=False, indent=4))
 
-os.system("pause")
+# os.system("pause")
