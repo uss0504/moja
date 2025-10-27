@@ -1,7 +1,7 @@
 import json
 import random
-import bisect
 import os
+import bisect
 
 from itertools import accumulate
 
