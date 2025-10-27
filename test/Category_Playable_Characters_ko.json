@@ -794,56 +794,7 @@
         "title": "Wonderland Manekin",
         "ko_text": "별인형 별인형 별인형·남성-- 별인형 별인형·여성--",
         "ko": "별인형",
-        "weight": 0
-    },
-    {
-        "pageid": 20855,
-        "ns": 0,
-        "title": "Wonderland Manekin",
-        "weight": 0.1666,
-        "ko": "별인형 (바람)"
-    },
-    {
-        "pageid": 148629,
-        "ns": 0,
-        "title": "Wonderland Manekin",
-        "weight": 0.1666,
-        "ko": "별인형 (풀)"
-    },
-    {
-        "pageid": 66912,
-        "ns": 0,
-        "title": "Wonderland Manekin",
-        "weight": 0.1666,
-        "ko": "별인형 (번개)"
-    },
-    {
-        "pageid": 20854,
-        "ns": 0,
-        "title": "Wonderland Manekin",
-        "weight": 0.1666,
-        "ko": "별인형 (바위)"
-    },
-    {
-        "pageid": 241454,
-        "ns": 0,
-        "title": "Wonderland Manekin",
-        "weight": 0.1666,
-        "ko": "별인형 (물)"
-    },
-    {
-        "pageid": 350860,
-        "ns": 0,
-        "title": "Wonderland Manekin",
-        "weight": 0.1666,
-        "ko": "별인형 (불)"
-    },
-    {
-        "pageid": 21260,
-        "ns": 0,
-        "title": "Wonderland Manekin",
-        "weight": 0,
-        "ko": "별인형 (무속성)"
+        "weight": 1
     },
     {
         "pageid": 236151,

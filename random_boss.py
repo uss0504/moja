@@ -2,8 +2,8 @@ import json
 import random
 import os
 import glob
-import bisect
 
+import bisect
 from itertools import accumulate
 
 sysrand = random.SystemRandom()
@@ -11,14 +11,17 @@ sysrand = random.SystemRandom()
 def sysrandom_choice(population, weights, k=1):
     cum_weights = list(accumulate(weights))
     total = cum_weights[-1]
+    if total <= 0:
+        raise ValueError("총 가중치가 0 이하이면 선택 불가")
+
     result = []
     for _ in range(k):
-        # SystemRandom 의 randbelow 가 없으므로 randint 를 사용
-        r = sysrand.randint(0, total - 1)
+        # 0 ≤ r < total  (float)
+        r = sysrand.random() * total            # sysrand.random() → [0,1)
         idx = bisect.bisect_right(cum_weights, r)
         result.append(population[idx])
-    return result
 
+    return result
 
 # ① data 폴더 내 모든 *_Bosses_ko.json 파일 읽기
 all_items = []
@@ -46,11 +49,11 @@ ko_value = selected_obj.get('ko')
 ko_text_value = selected_obj.get('ko_text')
 en_value = selected_obj.get('title')
 
-if ko_value is not None:
+if ko_value:
     print(ko_value)
-elif ko_text_value is not None:
+elif ko_text_value:
     print(ko_text_value)
-elif en_value is not None:
+elif en_value:
     print(en_value)
 else:
     print("값이 없습니다.")
