@@ -65,7 +65,7 @@
         "ns": 0,
         "title": "Lord of Eroded Primal Fire",
         "ko_text": "침식된 근원의 불꽃 주인",
-        "ko": "(주보)침식된 근원의 불꽃 주인(그소요토스)",
+        "ko": "(주보)그소요토스",
         "weight": 1
     },
     {
@@ -82,7 +82,7 @@
         "title": "Stormterror Dvalin",
         "ko_text": "열공의 마룡",
         "ko": "(주보)드발린",
-        "weight": 1
+        "weight": 0
     },
     {
         "pageid": 371008,

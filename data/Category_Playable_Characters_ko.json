@@ -719,42 +719,42 @@
         "pageid": 20855,
         "ns": 0,
         "title": "Traveler (Anemo)",
-        "weight": 1,
+        "weight": 0.1666,
         "ko": "여행자 (바람)"
     },
     {
         "pageid": 148629,
         "ns": 0,
         "title": "Traveler (Dendro)",
-        "weight": 1,
+        "weight": 0.1666,
         "ko": "여행자 (풀)"
     },
     {
         "pageid": 66912,
         "ns": 0,
         "title": "Traveler (Electro)",
-        "weight": 1,
+        "weight": 0.1666,
         "ko": "여행자 (번개)"
     },
     {
         "pageid": 20854,
         "ns": 0,
         "title": "Traveler (Geo)",
-        "weight": 1,
+        "weight": 0.1666,
         "ko": "여행자 (바위)"
     },
     {
         "pageid": 241454,
         "ns": 0,
         "title": "Traveler (Hydro)",
-        "weight": 1,
+        "weight": 0.1666,
         "ko": "여행자 (물)"
     },
     {
         "pageid": 350860,
         "ns": 0,
         "title": "Traveler (Pyro)",
-        "weight": 1,
+        "weight": 0.1666,
         "ko": "여행자 (불)"
     },
     {

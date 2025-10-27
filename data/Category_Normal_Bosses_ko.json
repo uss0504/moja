@@ -19,7 +19,7 @@
         "title": "Aeonblight Drake",
         "ko_text": "영겁 의 드레이크",
         "ko": "영겁의 드레이크",
-        "weight": 1
+        "weight": 0.7
     },
     {
         "pageid": 167221,
@@ -43,7 +43,7 @@
         "title": "Coral Defenders",
         "ko_text": "심해 용 도마뱀 무리",
         "ko": "심해 용 도마뱀 무리(연하궁)",
-        "weight": 1
+        "weight": 0.3
     },
     {
         "pageid": 45817,
@@ -107,7 +107,7 @@
         "title": "Geo Hypostasis",
         "ko_text": "무 상 의 바위",
         "ko": "무상의 바위",
-        "weight": 0.5
+        "weight": 0.3
     },
     {
         "pageid": 103658,
@@ -227,7 +227,7 @@
         "title": "Primo Geovishap",
         "ko_text": "고대 바위 용 도마뱀",
         "ko": "고대 바위 용 도마뱀",
-        "weight": 0.5
+        "weight": 0.3
     },
     {
         "pageid": 255455,
@@ -298,8 +298,8 @@
         "ns": 0,
         "title": "Setekh Wenut",
         "ko_text": "바람 침식 모래 벌레",
-        "ko": "바람 침식 모래 벌레",
-        "weight": 1
+        "ko": "바람 침식 모래 벌레", 
+        "weight": 0.5
     },
     {
         "pageid": 283218,
