@@ -128,8 +128,11 @@ with open('Category_Playable_Characters_ko.json', 'r', encoding='utf-8') as f:
 # ② 가중치 리스트 생성 (가중치가 없으면 기본값 1)
 weights = [obj.get('weight', 1) for obj in items]
 
-# 시스템 random
+# secret 을 이용한 random
 selected_obj = secrets_choice(items, weights=weights, k=1)[0]
+
+# 시스템 random
+# selected_obj = sysrandom_choice(items, weights=weights, k=1)[0]
 
 # 기존 일반 random
 # selected_obj = random.choices(items, weights=weights, k=1)[0]
