@@ -19,7 +19,7 @@
         "title": "Albedo",
         "ko_text": "알베도",
         "ko": "알베도",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 151669,
@@ -35,7 +35,7 @@
         "title": "Aloy",
         "ko_text": "에일로이",
         "ko": "에일로이",
-        "weight": 1
+        "weight": 0.4
     },
     {
         "pageid": 132,
@@ -51,7 +51,7 @@
         "title": "Arataki Itto",
         "ko_text": "아라타키 이토",
         "ko": "아라타키 이토",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 117187,
@@ -299,7 +299,7 @@
         "title": "Gorou",
         "ko_text": "고로",
         "ko": "고로",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 14745,
@@ -323,7 +323,7 @@
         "title": "Ifa",
         "ko_text": "이파",
         "ko": "이파",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 382551,
@@ -347,7 +347,7 @@
         "title": "Kachina",
         "ko_text": "카치나",
         "ko": "카치나",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 56633,
@@ -569,7 +569,7 @@
         "title": "Ningguang",
         "ko_text": "응광",
         "ko": "응광",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 156,
@@ -577,7 +577,7 @@
         "title": "Noelle",
         "ko_text": "노엘",
         "ko": "노엘",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 316438,
@@ -633,7 +633,7 @@
         "title": "Sayu",
         "ko_text": "사유",
         "ko": "사유",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 301808,
@@ -778,7 +778,7 @@
         "title": "Venti",
         "ko_text": "벤티",
         "ko": "벤티",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 179077,
@@ -875,7 +875,7 @@
         "title": "Xiao",
         "ko_text": "소",
         "ko": "소",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 316437,
@@ -955,7 +955,7 @@
         "title": "Yun Jin",
         "ko_text": "운근",
         "ko": "운근",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 1837,
