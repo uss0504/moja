@@ -33,10 +33,10 @@ import asyncio
 
 @bot.command(name="랜덤캐릭")
 async def calc_cmd(ctx):
-    """다른 파이썬 스크립트 실행해서 그 결과를 보여줌"""
+    # 다른 파이썬 스크립트 실행해서 그 결과를 보여줌
     # 비동기 방식으로 실행 (python3 calc.py)
     process = await asyncio.create_subprocess_exec(
-        "python", "random_char.py",
+        "python3", "random_char.py",
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE
     )
@@ -52,10 +52,10 @@ async def calc_cmd(ctx):
     
 @bot.command(name="랜덤보스")
 async def calc_cmd(ctx):
-    """다른 파이썬 스크립트 실행해서 그 결과를 보여줌"""
+    # 다른 파이썬 스크립트 실행해서 그 결과를 보여줌
     # 비동기 방식으로 실행 (python3 calc.py)
     process = await asyncio.create_subprocess_exec(
-        "python", "random_boss.py",
+        "python3", "random_boss.py",
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE
     )
