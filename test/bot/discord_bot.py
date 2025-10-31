@@ -2,6 +2,7 @@
 # 아직 Hello World 단계임.
 import os
 import discord
+import random
 from discord.ext import commands
 
 import dotenv
@@ -67,6 +68,36 @@ async def calc_cmd(ctx):
 
     out_text = stdout.decode().strip()
     await ctx.send(out_text)
+
+# ─────────────────────────┐
+# 1. 랜덤 숫자 뽑기 명령어   │
+# ─────────────────────────┘
+@bot.command(name="랜덤모자")   # !roll 으로 호출
+async def roll(ctx, *, msg: str = None):
+    """
+    1~20 사이의 랜덤 숫자를 반환합니다.
+    옵션: 숫자를 뽑을 횟수를 입력하면 여러 개를 돌려줍니다.
+    예) !roll 5   -> 5개의 숫자 출력
+    """
+    # 기본값: 1회 실행
+    times = 1
+
+    # 사용자가 횟수를 넣었다면 파싱
+    if msg:
+        try:
+            times = int(msg)
+            if times < 1 or times > 10:   # 10회 초과는 제한
+                raise ValueError
+        except ValueError:
+            await ctx.send("⚠️ `!랜덤모자` 뒤에 1~10 사이의 정수만 넣어 주세요.")
+            return
+
+    # 랜덤 숫자 생성
+    results = [random.randint(1, 20) for _ in range(times)]
+
+    # 결과를 문자열로 포맷
+    out = " | ".join(str(n) for n in results)
+    await ctx.send(f"🎲 **{ctx.author.mention}** 님의 결과: {out}")
 
 
 # ⑥ 실행
