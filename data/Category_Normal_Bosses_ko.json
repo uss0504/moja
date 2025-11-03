@@ -35,7 +35,7 @@
         "title": "Anemo Hypostasis",
         "ko_text": "무상 의 바람",
         "ko": "무상의 바람",
-        "weight": 0.8
+        "weight": 0.7
     },
     {
         "pageid": 112881,
@@ -67,7 +67,7 @@
         "title": "Dendro Hypostasis",
         "ko_text": "무상의 풀",
         "ko": "무상의 풀",
-        "weight": 0.8
+        "weight": 0.5
     },
     {
         "pageid": 372,
@@ -75,7 +75,7 @@
         "title": "Electro Hypostasis",
         "ko_text": "무 상 의 뇌 전",
         "ko": "무상의 뇌전",
-        "weight": 0.8
+        "weight": 0.7
     },
     {
         "pageid": 144162,
@@ -131,7 +131,7 @@
         "title": "Hydro Hypostasis",
         "ko_text": "무상 의 물",
         "ko": "무상의 물",
-        "weight": 0.8
+        "weight": 0.7
     },
     {
         "pageid": 265820,
@@ -147,7 +147,7 @@
         "title": "Icewind Suite",
         "ko_text": "얼음 바람 모음곡 코펠리아 의 장송 코펠리우스 의 겁벌",
         "ko": "코펠리아의 장송(얼음)",
-        "weight": 1
+        "weight": 0.7
     },
     {
         "pageid": 241258,
@@ -155,7 +155,7 @@
         "title": "Icewind Suite",
         "ko_text": "얼음 바람 모음곡 코펠리아 의 장송 코펠리우스 의 겁벌",
         "ko": "코펠리우스의 겁벌(바람)",
-        "weight": 1
+        "weight": 0.7
     },
     {
         "pageid": 218950,
@@ -243,7 +243,7 @@
         "title": "Pyro Hypostasis",
         "ko_text": "무상의 불",
         "ko": "무상의 불",
-        "weight": 0.8
+        "weight": 0.7
     },
     {
         "pageid": 2371,
@@ -323,7 +323,7 @@
         "title": "Thunder Manifestation",
         "ko_text": "뇌음 의 권현",
         "ko": "뇌음의 권현",
-        "weight": 1
+        "weight": 0.8
     },
     {
         "pageid": 350862,
