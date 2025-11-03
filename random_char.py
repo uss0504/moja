@@ -1,6 +1,5 @@
 import json
 import random
-import os
 
 
 # secrets를 이용한 랜덤함수
@@ -91,5 +90,4 @@ else:
     print("값이 없습니다.")
     print(json.dumps(selected_obj, ensure_ascii=False, indent=4))
 
-os.system("pause")
 # input("작업 완료 – 엔터 키를 눌러 종료...")

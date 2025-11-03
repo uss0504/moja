@@ -1,4 +1,4 @@
-import json, glob, bisect, secrets, os
+import json, glob, bisect, secrets
 from itertools import accumulate
 from typing import List, Any, Optional
 
@@ -63,7 +63,6 @@ for path in glob.glob('data/*_Bosses_ko.json'):
 
 if not all_items:
     print("오류: 읽어올 데이터가 없습니다.")
-    os.system("pause")
     # input("작업 완료 – 엔터 키를 눌러 종료...")
     exit()
 
@@ -94,5 +93,4 @@ else:
     print("값이 없습니다.")
     print(json.dumps(selected_obj, ensure_ascii=False, indent=4))
 
-os.system("pause")
 # input("작업 완료 – 엔터 키를 눌러 종료...")
