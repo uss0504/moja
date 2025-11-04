@@ -45,7 +45,7 @@ def auto_delete(delay: int = 10):
 
 # ────────────────────────────────────────────────────────────────────────
 # 1️⃣ 제어 메시지의 ID를 저장할 전역 변수
-CONTROL_MESSAGE_ID = None          # 초기값: None
+CONTROL_MESSAGE_ID = 1435256395485413436       # 초기값: None
 
 # ────────────────────────────────────────────────────────────────────────
 # 2️⃣ 제어 메시지 보낼 채널 ID (예시: 123456789012345678)
@@ -73,21 +73,41 @@ async def roll(ctx, times: int = 1):
 
 @bot.command(name='randchar')
 @auto_delete(DELETE_AFTER)
-async def lock(ctx):
-    if ctx.author.guild_permissions.manage_channels:
-        await ctx.channel.set_permissions(ctx.guild.default_role, read_messages=False)
-        return await ctx.send(f'🔒 {ctx.channel.mention} 채널을 잠그았습니다.')
-    else:
-        return await ctx.send('❌ 잠그려면 **Manage Channels** 권한이 필요해요.')
+async def calc_cmd(ctx):
+    # 다른 파이썬 스크립트 실행해서 그 결과를 보여줌
+    # 비동기 방식으로 실행 (python3 calc.py)
+    process = await asyncio.create_subprocess_exec(
+        "python3", "random_char.py",
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE
+    )
+    stdout, stderr = await process.communicate()
+
+    if process.returncode != 0:
+        await ctx.send(f"❌ 오류 발생:\n{stderr.decode().strip()}")
+        return
+
+    out_text = stdout.decode().strip()
+    return await ctx.send(out_text)
 
 @bot.command(name='randboss')
 @auto_delete(DELETE_AFTER)
-async def unlock(ctx):
-    if ctx.author.guild_permissions.manage_channels:
-        await ctx.channel.set_permissions(ctx.guild.default_role, read_messages=True)
-        return await ctx.send(f'🔓 {ctx.channel.mention} 채널의 잠금을 해제했습니다.')
-    else:
-        return await ctx.send('❌ 잠금을 해제하려면 **Manage Channels** 권한이 필요해요.')
+async def calc_cmd(ctx):
+    # 다른 파이썬 스크립트 실행해서 그 결과를 보여줌
+    # 비동기 방식으로 실행 (python3 calc.py)
+    process = await asyncio.create_subprocess_exec(
+        "python3", "random_boss.py",
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE
+    )
+    stdout, stderr = await process.communicate()
+
+    if process.returncode != 0:
+        await ctx.send(f"❌ 오류 발생:\n{stderr.decode().strip()}")
+        return
+
+    out_text = stdout.decode().strip()
+    return await ctx.send(out_text)
 
 @bot.command(name='rename') # 작동 안됨.
 @auto_delete(DELETE_AFTER)
