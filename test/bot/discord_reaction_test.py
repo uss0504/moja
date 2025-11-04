@@ -11,9 +11,41 @@ intents.messages = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
+# 자동 삭제를 위한 
+import asyncio
+DELETE_AFTER = 10
+
+async def delete_after(msg: discord.Message, delay: int):
+    """
+    주어진 메시지를 `delay` 초 뒤에 삭제합니다.
+    - 봇이 “Manage Messages” 권한을 가지고 있어야 합니다.
+    """
+    await asyncio.sleep(delay)
+    try:
+        await msg.delete()
+    except discord.Forbidden:
+        # 권한 부족 시 사용자에게 알려줌
+        await msg.channel.send(
+            f"⚠️ {msg.author.mention} 봇이 메시지를 삭제할 수 없습니다. (Manage Messages 권한 필요)"
+        )
+    except Exception as e:
+        print(f"[delete_after] 에러: {e}")
+
+# 커맨드의 응답 메시지를 `delay` 초 뒤에 자동 삭제해 주는 데코레이터
+def auto_delete(delay: int = 10):
+    def decorator(func):
+        async def wrapper(ctx, *args, **kwargs):
+            reply = await func(ctx, *args, **kwargs)
+            # 커맨드가 `ctx.send()` 를 반환하도록 설계되어야 함
+            if isinstance(reply, discord.Message):
+                asyncio.create_task(delete_after(reply, delay))
+            return reply
+        return wrapper
+    return decorator
+
 # ────────────────────────────────────────────────────────────────────────
 # 1️⃣ 제어 메시지의 ID를 저장할 전역 변수
-CONTROL_MESSAGE_ID = None          # 초기값: 아직 없음
+CONTROL_MESSAGE_ID = 1435253633058082856          # 초기값: None
 
 # ────────────────────────────────────────────────────────────────────────
 # 2️⃣ 제어 메시지 보낼 채널 ID (예시: 123456789012345678)
@@ -23,44 +55,57 @@ CONTROL_CHANNEL_ID = 762314435867574277  # <-- 실제 채널 ID로 바꿔주세�
 # 3️⃣ 리모컨 이모지 → 명령 매핑
 EMOJI_CMD_MAP = {
     '🎲': 'roll',      # 주사위 굴리기
-    '🔒': 'lock',      # 채널 잠그기
-    '🔓': 'unlock',    # 채널 잠금 해제
-    '✏️': 'rename',    # 채널 이름 바꾸기
+    '🙍‍♂️': 'randchar',      # 랜덤캐릭
+    '👾': 'randboss',    # 랜덤보스
+    '<a:rick_roll:959281107596099585>': 'rename',    # 테스트(기능안됨)
 }
 
 # ────────────────────────────────────────────────────────────────────────
 # 4️⃣ 일반 명령어(기존 코드 그대로)
 @bot.command(name='roll')
+@auto_delete(DELETE_AFTER)
 async def roll(ctx, times: int = 1):
     if times < 1 or times > 10:
         await ctx.send('⚠️ 1~10 사이 정수만 입력해 주세요.')
         return
     nums = [random.randint(1, 20) for _ in range(times)]
-    await ctx.send(f'🎲 {ctx.author.mention} 님의 결과: {" | ".join(map(str, nums))}')
+    return await ctx.send(f'🎲 {ctx.author.mention} 님의 결과: {" | ".join(map(str, nums))}')
 
-@bot.command(name='lock')
+@bot.command(name='randchar')
+@auto_delete(DELETE_AFTER)
 async def lock(ctx):
     if ctx.author.guild_permissions.manage_channels:
         await ctx.channel.set_permissions(ctx.guild.default_role, read_messages=False)
-        await ctx.send(f'🔒 {ctx.channel.mention} 채널을 잠그았습니다.')
+        return await ctx.send(f'🔒 {ctx.channel.mention} 채널을 잠그았습니다.')
     else:
-        await ctx.send('❌ 잠그려면 **Manage Channels** 권한이 필요해요.')
+        return await ctx.send('❌ 잠그려면 **Manage Channels** 권한이 필요해요.')
 
-@bot.command(name='unlock')
+@bot.command(name='randboss')
+@auto_delete(DELETE_AFTER)
 async def unlock(ctx):
     if ctx.author.guild_permissions.manage_channels:
         await ctx.channel.set_permissions(ctx.guild.default_role, read_messages=True)
-        await ctx.send(f'🔓 {ctx.channel.mention} 채널의 잠금을 해제했습니다.')
+        return await ctx.send(f'🔓 {ctx.channel.mention} 채널의 잠금을 해제했습니다.')
     else:
-        await ctx.send('❌ 잠금을 해제하려면 **Manage Channels** 권한이 필요해요.')
+        return await ctx.send('❌ 잠금을 해제하려면 **Manage Channels** 권한이 필요해요.')
 
-@bot.command(name='rename')
+@bot.command(name='rename') # 작동 안됨.
+@auto_delete(DELETE_AFTER)
 async def rename(ctx, *, new_name: str):
+    await ctx.send(f'{ctx.author.mention} 채널 이름을 입력하세요 (30초 내).')
+    try:
+        msg = await bot.wait_for('message', timeout=30.0, check=lambda m: m.author == ctx.author and m.channel == channel)
+        await channel.edit(name=msg.content)
+        return await ctx.send(f'✏️ 채널명을 **{msg.content}** 으로 바꿨습니다.')
+    except asyncio.TimeoutError:
+        return await ctx.send('❌ 시간 초과!')
+    ''' # 기존 코드
     if ctx.author.guild_permissions.manage_channels:
         await ctx.channel.edit(name=new_name)
         await ctx.send(f'✏️ 채널명을 **{new_name}** 으로 바꿨습니다.')
     else:
         await ctx.send('❌ 채널명을 바꾸려면 **Manage Channels** 권한이 필요해요.')
+    '''
 
 # ────────────────────────────────────────────────────────────────────────
 # 5️⃣ 제어 메시지 전송(봇이 준비됐을 때 한 번만)
@@ -71,11 +116,12 @@ async def on_ready():
         channel = bot.get_channel(CONTROL_CHANNEL_ID)
         if channel:
             msg = await channel.send(
-                "🔢 **리모컨**\n"
+                "아래 이모티콘을 선택해 명령어를 실행해주세요.\n"
                 "🎲 – 주사위 굴리기\n"
                 "🔒 – 채널 잠그기\n"
                 "🔓 – 채널 잠금 해제\n"
-                "✏️ – 채널 이름 바꾸기"
+                "<a:rick_roll:959281107596099585> – 테스트(더미)\n"
+                "메세지 삭제 테스트중."
             )
             CONTROL_MESSAGE_ID = msg.id
 
@@ -116,9 +162,6 @@ async def on_raw_reaction_add(payload):
     if cmd is None:
         return
 
-    # 5️⃣ 명령 실행
-    await cmd(ctx)
-
     # 6️⃣ 사용자의 반응을 지워서 재사용 가능하게
     user = bot.get_user(payload.user_id) or await bot.fetch_user(payload.user_id)
     try:
@@ -131,13 +174,14 @@ async def on_raw_reaction_add(payload):
     except Exception as e:
         print(f'반응 삭제 실패: {e}')
 
+    # 5️⃣ 명령 실행
+    await cmd(ctx)
+
 # ────────────────────────────────────────────────────────────────────────
 # 7️⃣ 실행
 
 if __name__ == "__main__":
-    # 토큰은 환경 변수로부터 읽어옵니다.
-    # 윈도우 예시: set DISCORD_TOKEN=여기에_토큰을_붙여
-    # 리눅스/맥 예시: export DISCORD_TOKEN=여기에_토큰을_붙여
+    # 토큰은 .env로부터 읽어옵니다.
     token = os.getenv("DISCORD_TOKEN")
     if not token:
         raise ValueError("DISCORD_TOKEN 환경 변수가 설정되지 않았습니다.")
