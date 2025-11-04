@@ -60,11 +60,11 @@ ko_text_value = selected_obj.get('ko_text')
 en_value = selected_obj.get('title')
 
 if ko_value:
-    print(ko_value)
+    print(f"랜덤 보스: {ko_value}")
 elif ko_text_value:
-    print(ko_text_value)
+    print(f"랜덤 보스: {ko_text_value}")
 elif en_value:
-    print(en_value)
+    print(f"랜덤 보스: {en_value}")
 else:
     print("값이 없습니다.")
     print(json.dumps(selected_obj, ensure_ascii=False, indent=4))
