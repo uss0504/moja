@@ -13,7 +13,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # 자동 삭제를 위한 
 import asyncio
-DELETE_AFTER = 10
+DELETE_AFTER = 30
 
 async def delete_after(msg: discord.Message, delay: int):
     """
@@ -45,11 +45,11 @@ def auto_delete(delay: int = 10):
 
 # ────────────────────────────────────────────────────────────────────────
 # 1️⃣ 제어 메시지의 ID를 저장할 전역 변수
-CONTROL_MESSAGE_ID = 1435256395485413436       # 초기값: None
+CONTROL_MESSAGE_ID = 1435263953570889760       # 초기값: None
 
 # ────────────────────────────────────────────────────────────────────────
 # 2️⃣ 제어 메시지 보낼 채널 ID (예시: 123456789012345678)
-CONTROL_CHANNEL_ID = 762314435867574277  # <-- 실제 채널 ID로 바꿔주세요
+CONTROL_CHANNEL_ID = 1435258015077892096  # <-- 실제 채널 ID로 바꿔주세요
 
 # ────────────────────────────────────────────────────────────────────────
 # 3️⃣ 리모컨 이모지 → 명령 매핑
@@ -69,7 +69,7 @@ async def roll(ctx, times: int = 1):
         await ctx.send('⚠️ 1~10 사이 정수만 입력해 주세요.')
         return
     nums = [random.randint(1, 20) for _ in range(times)]
-    return await ctx.send(f'🎲 {ctx.author.mention} 님의 결과: {" | ".join(map(str, nums))}')
+    return await ctx.send(f'🎲 결과: {" | ".join(map(str, nums))}')
 
 @bot.command(name='randchar')
 @auto_delete(DELETE_AFTER)
@@ -109,7 +109,7 @@ async def calc_cmd(ctx):
     out_text = stdout.decode().strip()
     return await ctx.send(out_text)
 
-@bot.command(name='rename') # 작동 안됨.
+@bot.command(name='renamee') # 일부러 작동 안되게 만듦.
 @auto_delete(DELETE_AFTER)
 async def rename(ctx, *, new_name: str):
     await ctx.send(f'{ctx.author.mention} 채널 이름을 입력하세요 (30초 내).')
@@ -137,11 +137,11 @@ async def on_ready():
         if channel:
             msg = await channel.send(
                 "아래 이모티콘을 선택해 명령어를 실행해주세요.\n"
-                "🎲 – 주사위 굴리기\n"
-                "🔒 – 채널 잠그기\n"
-                "🔓 – 채널 잠금 해제\n"
+                "🎲 – 랜덤 모자 숫자 뽑기\n"
+                "🙍‍♂️ – 랜덤 캐릭터 뽑기\n"
+                "👾 – 랜덤 보스 뽑기\n"
                 "<a:rick_roll:959281107596099585> – 테스트(더미)\n"
-                "메세지 삭제 테스트중."
+                "결과 메세지는 30초 뒤에 사라집니다." # DELETE_AFTER 값에 따라 달라짐.
             )
             CONTROL_MESSAGE_ID = msg.id
 
