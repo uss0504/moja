@@ -13,7 +13,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # 자동 삭제를 위한 
 import asyncio
-DELETE_AFTER = 30
+DELETE_AFTER = 120
 
 async def delete_after(msg: discord.Message, delay: int):
     """
@@ -45,11 +45,15 @@ def auto_delete(delay: int = 10):
 
 # ────────────────────────────────────────────────────────────────────────
 # 1️⃣ 제어 메시지의 ID를 저장할 전역 변수
-CONTROL_MESSAGE_ID = 1435263953570889760       # 초기값: None
+CONTROL_MESSAGE_ID = 1438121828299182191       # 초기값: None
+# 모자디코 메세지 - 1438121828299182191
+# 테스트 - 1438119004245069846
 
 # ────────────────────────────────────────────────────────────────────────
 # 2️⃣ 제어 메시지 보낼 채널 ID (예시: 123456789012345678)
-CONTROL_CHANNEL_ID = 1435258015077892096  # <-- 실제 채널 ID로 바꿔주세요
+CONTROL_CHANNEL_ID = 1437940729547849888  # <-- 실제 채널 ID로 바꿔주세요
+# 모자 디코 채널 - 1437940729547849888
+# 테스트 채널 - 1435258015077892096
 
 # ────────────────────────────────────────────────────────────────────────
 # 3️⃣ 리모컨 이모지 → 명령 매핑
@@ -57,7 +61,7 @@ EMOJI_CMD_MAP = {
     '🎲': 'roll',      # 주사위 굴리기
     '🙍‍♂️': 'randchar',      # 랜덤캐릭
     '👾': 'randboss',    # 랜덤보스
-    '<a:rick_roll:959281107596099585>': 'rename',    # 테스트(기능안됨)
+    # '<a:rick_roll:959281107596099585>': 'test',    # 테스트(기능안됨)
 }
 
 # ────────────────────────────────────────────────────────────────────────
@@ -109,10 +113,28 @@ async def calc_cmd(ctx):
     out_text = stdout.decode().strip()
     return await ctx.send(out_text)
 
-@bot.command(name='rename') # 일부러 작동 안되게 만듦.
+@bot.command(name='renamee') # 일부러 작동 안되게 만듦.
+@auto_delete(DELETE_AFTER)
+async def rename(ctx, *, new_name: str):
+    await ctx.send(f'{ctx.author.mention} 채널 이름을 입력하세요 (30초 내).')
+    try:
+        msg = await bot.wait_for('message', timeout=30.0, check=lambda m: m.author == ctx.author and m.channel == channel)
+        await channel.edit(name=msg.content)
+        return await ctx.send(f'✏️ 채널명을 **{msg.content}** 으로 바꿨습니다.')
+    except asyncio.TimeoutError:
+        return await ctx.send('❌ 시간 초과!')
+    ''' # 기존 코드
+    if ctx.author.guild_permissions.manage_channels:
+        await ctx.channel.edit(name=new_name)
+        await ctx.send(f'✏️ 채널명을 **{new_name}** 으로 바꿨습니다.')
+    else:
+        await ctx.send('❌ 채널명을 바꾸려면 **Manage Channels** 권한이 필요해요.')
+    '''
+@bot.command(name='test') # 일부러 작동 안되게 만듦.
 @auto_delete(DELETE_AFTER)
 async def rename(ctx, *, new_name: str):
     return await ctx.send(f'asdf')
+
 
 # ────────────────────────────────────────────────────────────────────────
 # 5️⃣ 제어 메시지 전송(봇이 준비됐을 때 한 번만)
@@ -124,11 +146,11 @@ async def on_ready():
         if channel:
             msg = await channel.send(
                 "아래 이모티콘을 선택해 명령어를 실행해주세요.\n"
-                "🎲 – 랜덤 모자 숫자 뽑기\n"
+                "🎲 – 랜덤 숫자(1-20) 뽑기\n"
                 "🙍‍♂️ – 랜덤 캐릭터 뽑기\n"
                 "👾 – 랜덤 보스 뽑기\n"
-                "<a:rick_roll:959281107596099585> – 테스트(더미)\n"
-                "결과 메세지는 30초 뒤에 사라집니다." # DELETE_AFTER 값에 따라 달라짐.
+                # "<a:rick_roll:959281107596099585> – 테스트(더미)\n"
+                "결과 메세지는 일정 시간 뒤에 사라집니다." # DELETE_AFTER 값에 따라 달라짐.
             )
             CONTROL_MESSAGE_ID = msg.id
 
