@@ -778,7 +778,7 @@
         "title": "Venti",
         "ko_text": "벤티",
         "ko": "벤티",
-        "weight": 0.85
+        "weight": 1
     },
     {
         "pageid": 179077,
@@ -875,7 +875,7 @@
         "title": "Xiao",
         "ko_text": "소",
         "ko": "소",
-        "weight": 0.85
+        "weight": 1
     },
     {
         "pageid": 316437,
@@ -964,5 +964,32 @@
         "ko_text": "종려",
         "ko": "종려",
         "weight": 1
+    },
+    {
+        "pageid": 413614,
+        "ns": 0,
+        "title": "Durin",
+        "ko_text": "꼬마 두린",
+        "ko": "두린",
+        "weight": 1
+    },
+    {
+        "pageid": 384165,
+        "ns": 0,
+        "title": "Jahoda",
+        "ko": "야호다",
+        "weight": 1
+    },
+    {
+        "pageid": 409975,
+        "ns": 0,
+        "title": "Manekin",
+        "weight": 0
+    },
+    {
+        "pageid": 408468,
+        "ns": 0,
+        "title": "Manekina",
+        "weight": 0
     }
 ]

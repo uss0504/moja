@@ -56,6 +56,7 @@ todo:
 깃헙용 README.md 파일 만들기.
     * data 폴더에 구조 설명용 .md 파일 필요.
 데이터 파일을 json에서 YAML으로 바꿔보기. - 주석, 가독성에서 필요할듯.
+.env 파일에 더 많은 정보 기록 (예시: 채널 id등.)
 
 웹서버로 호스팅?
 
@@ -77,7 +78,7 @@ pageid 중복이 된다면 먼저 있는 항목만 선택이 되는지? - 임시
 랜덤 추첨시: 1순위 수동번역, 2순위 자동번역, 3순위 영어 - 반영완
 랜덤 함수를 좀더 랜덤하게?
 requirements.txt 로 모듈 관리. 그리고 다양한 환경에서 테스트.(현재 X86 윈도우 기준.)
-    * 필요한 모듈: discord.py, dotenv
+    * 필요한 모듈: discord.py, dotenv, request
     예시: python3 -m pip install -U discord.py
     * 리눅스에서 필요한 명령어 수정: python -> python3
     * 코드 수정: os.system("pause") 대신 input("작업 완료 – 엔터 키를 눌러 종료...")
