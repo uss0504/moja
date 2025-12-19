@@ -61,7 +61,7 @@ EMOJI_CMD_MAP = {
     '🎲': 'roll',      # 주사위 굴리기
     '🙍‍♂️': 'randchar',      # 랜덤캐릭
     '👾': 'randboss',    # 랜덤보스
-    # '<a:rick_roll:959281107596099585>': 'test',    # 테스트(기능안됨)
+    # '<a:rick_roll:959281107596099585>': 'rename',    # 테스트(기능안됨)
 }
 
 # ────────────────────────────────────────────────────────────────────────
@@ -130,11 +130,6 @@ async def rename(ctx, *, new_name: str):
     else:
         await ctx.send('❌ 채널명을 바꾸려면 **Manage Channels** 권한이 필요해요.')
     '''
-@bot.command(name='test') # 일부러 작동 안되게 만듦.
-@auto_delete(DELETE_AFTER)
-async def rename(ctx, *, new_name: str):
-    return await ctx.send(f'asdf')
-
 
 # ────────────────────────────────────────────────────────────────────────
 # 5️⃣ 제어 메시지 전송(봇이 준비됐을 때 한 번만)
