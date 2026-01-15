@@ -113,24 +113,6 @@ async def calc_cmd(ctx):
     out_text = stdout.decode().strip()
     return await ctx.send(out_text)
 
-@bot.command(name='renamee') # 일부러 작동 안되게 만듦.
-@auto_delete(DELETE_AFTER)
-async def rename(ctx, *, new_name: str):
-    await ctx.send(f'{ctx.author.mention} 채널 이름을 입력하세요 (30초 내).')
-    try:
-        msg = await bot.wait_for('message', timeout=30.0, check=lambda m: m.author == ctx.author and m.channel == channel)
-        await channel.edit(name=msg.content)
-        return await ctx.send(f'✏️ 채널명을 **{msg.content}** 으로 바꿨습니다.')
-    except asyncio.TimeoutError:
-        return await ctx.send('❌ 시간 초과!')
-    ''' # 기존 코드
-    if ctx.author.guild_permissions.manage_channels:
-        await ctx.channel.edit(name=new_name)
-        await ctx.send(f'✏️ 채널명을 **{new_name}** 으로 바꿨습니다.')
-    else:
-        await ctx.send('❌ 채널명을 바꾸려면 **Manage Channels** 권한이 필요해요.')
-    '''
-
 # ────────────────────────────────────────────────────────────────────────
 # 5️⃣ 제어 메시지 전송(봇이 준비됐을 때 한 번만)
 @bot.event

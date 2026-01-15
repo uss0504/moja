@@ -998,6 +998,7 @@
     "ns": 0,
     "title": "Columbina",
     "ko_text": "콜롬비나 하이포셀레니아",
-    "ko": "콜롬비나"
+    "ko": "콜롬비나",
+    "weight": 1
   }
 ]
