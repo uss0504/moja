@@ -50,7 +50,7 @@
     "title": "Guardian of Apep's Oasis",
     "ko_text": "종막 오아시스 의 파수꾼 기원 오아시스 의 파수꾼 아펩 의 오아시스 파수꾼",
     "ko": "(주보)아펩",
-    "weight": 0.8
+    "weight": 0.6
   },
   {
     "pageid": 80341,
@@ -89,8 +89,8 @@
     "ns": 0,
     "title": "The Game Before the Gate",
     "ko_text": "문 앞 의 체스 매치 체스 킹 체스 퀸 승격한 킹 승화한 퀸",
-    "ko": "(주보)문앞의 체스 매치",
-    "weight": 0.8
+    "ko": "동자물쇠 (*이전: 체스)",
+    "weight": 0.4
   },
   {
     "pageid": 296271,
