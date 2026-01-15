@@ -99,7 +99,7 @@
     "title": "Frostnight Herra",
     "ko_text": "서리밤 하늘 영주 영주\" normally means \"",
     "ko": "서리밤 하늘 영주",
-    "weight": 0.7
+    "weight": 0.6
   },
   {
     "pageid": 374,
@@ -115,7 +115,7 @@
     "title": "Golden Wolflord",
     "ko_text": "황금 늑대 왕",
     "ko": "황금 늑대 왕",
-    "weight": 0.8
+    "weight": 0.6
   },
   {
     "pageid": 323697,
@@ -147,7 +147,7 @@
     "title": "Icewind Suite",
     "ko_text": "얼음 바람 모음곡 코펠리아 의 장송 코펠리우스 의 겁벌",
     "ko": "코펠리아의 장송(얼음)",
-    "weight": 0.35
+    "weight": 0.3
   },
   {
     "pageid": 241258,
@@ -155,7 +155,7 @@
     "title": "Icewind Suite",
     "ko_text": "얼음 바람 모음곡 코펠리아 의 장송 코펠리우스 의 겁벌",
     "ko": "코펠리우스의 겁벌(바람)",
-    "weight": 0.35
+    "weight": 0.3
   },
   {
     "pageid": 218950,
@@ -323,7 +323,7 @@
     "title": "Thunder Manifestation",
     "ko_text": "뇌음 의 권현",
     "ko": "뇌음의 권현",
-    "weight": 0.8
+    "weight": 0.6
   },
   {
     "pageid": 350862,
