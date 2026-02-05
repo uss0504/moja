@@ -19,7 +19,7 @@
     "title": "Albedo",
     "ko_text": "알베도",
     "ko": "알베도",
-    "weight": 0.85
+    "weight": 0.8
   },
   {
     "pageid": 151669,
@@ -51,13 +51,13 @@
     "title": "Arataki Itto",
     "ko_text": "아라타키 이토",
     "ko": "아라타키 이토",
-    "weight": 0.85
+    "weight": 0.8
   },
   {
     "pageid": 117187,
     "ns": 0,
     "title": "Arlecchino",
-    "ko_text": "아를레키노 하인 페르엘",
+    "ko_text": "아를레키노",
     "ko": "아를레키노",
     "weight": 1
   },
@@ -115,7 +115,7 @@
     "title": "Chasca",
     "ko_text": "차스카",
     "ko": "차스카",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 246332,
@@ -131,7 +131,7 @@
     "title": "Chiori",
     "ko_text": "치오리",
     "ko": "치오리",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 512,
@@ -243,7 +243,7 @@
     "title": "Faruzan",
     "ko_text": "파루잔",
     "ko": "파루잔",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 230,
@@ -299,7 +299,7 @@
     "title": "Gorou",
     "ko_text": "고로",
     "ko": "고로",
-    "weight": 0.85
+    "weight": 0.8
   },
   {
     "pageid": 14745,
@@ -323,7 +323,7 @@
     "title": "Ifa",
     "ko_text": "이파",
     "ko": "이파",
-    "weight": 0.85
+    "weight": 0.8
   },
   {
     "pageid": 382551,
@@ -339,7 +339,7 @@
     "title": "Jean",
     "ko_text": "진",
     "ko": "진",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 316433,
@@ -347,7 +347,7 @@
     "title": "Kachina",
     "ko_text": "카치나",
     "ko": "카치나",
-    "weight": 0.85
+    "weight": 0.9
   },
   {
     "pageid": 56633,
@@ -355,7 +355,7 @@
     "title": "Kaedehara Kazuha",
     "ko_text": "카에데하라 카즈하",
     "ko": "카에데하라 카즈하",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 130,
@@ -443,7 +443,7 @@
     "title": "Lan Yan",
     "ko_text": "남연",
     "ko": "남연",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 383744,
@@ -481,7 +481,7 @@
     "title": "Lynette",
     "ko_text": "리넷",
     "ko": "리넷",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 15927,
@@ -569,7 +569,7 @@
     "title": "Ningguang",
     "ko_text": "응광",
     "ko": "응광",
-    "weight": 0.85
+    "weight": 0.8
   },
   {
     "pageid": 156,
@@ -577,7 +577,7 @@
     "title": "Noelle",
     "ko_text": "노엘",
     "ko": "노엘",
-    "weight": 0.85
+    "weight": 0.8
   },
   {
     "pageid": 316438,
@@ -633,7 +633,7 @@
     "title": "Sayu",
     "ko_text": "사유",
     "ko": "사유",
-    "weight": 0.85
+    "weight": 0.8
   },
   {
     "pageid": 301808,
@@ -657,7 +657,7 @@
     "title": "Shikanoin Heizou",
     "ko_text": "시카노인 헤이조",
     "ko": "시카노인 헤이조",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 236166,
@@ -681,13 +681,13 @@
     "title": "Sucrose",
     "ko_text": "설탕 설탕( 사탕(",
     "ko": "설탕",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 2180,
     "ns": 0,
     "title": "Tartaglia",
-    "ko_text": "타르탈리아 귀공자",
+    "ko_text": "타르탈리아",
     "ko": "타르탈리아",
     "weight": 1
   },
@@ -719,42 +719,42 @@
     "pageid": 20855,
     "ns": 0,
     "title": "Traveler (Anemo)",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "여행자 (바람)"
   },
   {
     "pageid": 148629,
     "ns": 0,
     "title": "Traveler (Dendro)",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "여행자 (풀)"
   },
   {
     "pageid": 66912,
     "ns": 0,
     "title": "Traveler (Electro)",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "여행자 (번개)"
   },
   {
     "pageid": 20854,
     "ns": 0,
     "title": "Traveler (Geo)",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "여행자 (바위)"
   },
   {
     "pageid": 241454,
     "ns": 0,
     "title": "Traveler (Hydro)",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "여행자 (물)"
   },
   {
     "pageid": 350860,
     "ns": 0,
     "title": "Traveler (Pyro)",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "여행자 (불)"
   },
   {
@@ -778,7 +778,7 @@
     "title": "Venti",
     "ko_text": "벤티",
     "ko": "벤티",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 179077,
@@ -786,7 +786,7 @@
     "title": "Wanderer",
     "ko_text": "방랑자",
     "ko": "방랑자",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 408444,
@@ -800,42 +800,42 @@
     "pageid": 20855163,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "별인형 (바람)"
   },
   {
     "pageid": 148629564,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "별인형 (풀)"
   },
   {
     "pageid": 6691243541,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "별인형 (번개)"
   },
   {
     "pageid": 2085451654,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "별인형 (바위)"
   },
   {
     "pageid": 24145431211,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "별인형 (물)"
   },
   {
     "pageid": 35086065465,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1666,
+    "weight": 0.1333,
     "ko": "별인형 (불)"
   },
   {
@@ -867,7 +867,7 @@
     "title": "Xianyun",
     "ko_text": "한운 한( 운--",
     "ko": "한운",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 227,
@@ -875,7 +875,7 @@
     "title": "Xiao",
     "ko_text": "소",
     "ko": "소",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 316437,
@@ -947,7 +947,7 @@
     "title": "Yumemizuki Mizuki",
     "ko_text": "유메미즈키 미즈키",
     "ko": "유메미즈키 미즈키",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 14942,
@@ -955,7 +955,7 @@
     "title": "Yun Jin",
     "ko_text": "운근",
     "ko": "운근",
-    "weight": 0.85
+    "weight": 0.8
   },
   {
     "pageid": 1837,
@@ -963,7 +963,7 @@
     "title": "Zhongli",
     "ko_text": "종려",
     "ko": "종려",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 413614,
@@ -979,7 +979,7 @@
     "title": "Jahoda",
     "ko_text": "야호다",
     "ko": "야호다",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 409975,
@@ -997,8 +997,40 @@
     "pageid": 144376,
     "ns": 0,
     "title": "Columbina",
-    "ko_text": "콜롬비나 하이포셀레니아",
+    "ko_text": "콜롬비나",
     "ko": "콜롬비나",
     "weight": 1
+  },
+  {
+    "pageid": 425906,
+    "ns": 0,
+    "title": "Illuga",
+    "ko_text": "일루가",
+    "ko": "일루가",
+    "weight": 0.9
+  },
+  {
+    "pageid": 425891,
+    "ns": 0,
+    "title": "Zibai",
+    "ko_text": "자백",
+    "ko": "자백",
+    "weight": 1
+  },
+  {
+    "pageid": 527,
+    "ns": 0,
+    "title": "-",
+    "ko_text": "-",
+    "ko": "캐릭 선택권(와일드 카드)",
+    "weight": 0.1
+  },
+  {
+    "pageid": 528,
+    "ns": 0,
+    "title": "-",
+    "ko_text": "-",
+    "ko": "-",
+    "weight": 0
   }
 ]

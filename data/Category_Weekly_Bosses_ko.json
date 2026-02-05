@@ -6,6 +6,54 @@
     "weight": 0
   },
   {
+    "pageid": 4656,
+    "ns": 0,
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 1번방 (어려움)",
+    "weight": 0.1
+  },
+  {
+    "pageid": 4657,
+    "ns": 0,
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 2번방 (어려움)",
+    "weight": 0.1
+  },
+  {
+    "pageid": 4658,
+    "ns": 0,
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 3번방 (어려움)",
+    "weight": 0.1
+  },
+  {
+    "pageid": 4666,
+    "ns": 0,
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 1번방 (위험)",
+    "weight": 0
+  },
+  {
+    "pageid": 4667,
+    "ns": 0,
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 2번방 (위험)",
+    "weight": 0
+  },
+  {
+    "pageid": 4668,
+    "ns": 0,
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 3번방 (위험)",
+    "weight": 0
+  },
+  {
     "pageid": 265823,
     "ns": 0,
     "title": "All-Devouring Narwhal",
@@ -103,8 +151,8 @@
   {
     "pageid": 322766,
     "ns": 0,
-    "title": "The Doctor",
-    "ko_text": "도토레 거짓된 달의 이단아",
+    "title": "Heretic of the False Moon",
+    "ko_text": "거짓된 달 의 이단아",
     "ko": "(주보)도토레",
     "weight": 0.8
   }
