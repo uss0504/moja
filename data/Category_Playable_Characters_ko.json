@@ -35,7 +35,7 @@
     "title": "Aloy",
     "ko_text": "에일로이",
     "ko": "에일로이",
-    "weight": 0.5
+    "weight": 0.1
   },
   {
     "pageid": 132,
@@ -83,7 +83,7 @@
     "title": "Beidou",
     "ko_text": "북두",
     "ko": "북두",
-    "weight": 1
+    "weight": 0.7
   },
   {
     "pageid": 280,
@@ -99,7 +99,7 @@
     "title": "Candace",
     "ko_text": "캔디스",
     "ko": "캔디스",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 228387,
@@ -179,7 +179,7 @@
     "title": "Dahlia",
     "ko_text": "달리아",
     "ko": "달리아",
-    "weight": 1
+    "weight": 0.5
   },
   {
     "pageid": 151676,
@@ -267,7 +267,7 @@
     "title": "Freminet",
     "ko_text": "프레미네",
     "ko": "프레미네",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 236143,
@@ -299,7 +299,7 @@
     "title": "Gorou",
     "ko_text": "고로",
     "ko": "고로",
-    "weight": 0.8
+    "weight": 0.7
   },
   {
     "pageid": 14745,
@@ -387,7 +387,7 @@
     "title": "Kaveh",
     "ko_text": "카베",
     "ko": "카베",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 1858,
@@ -467,7 +467,7 @@
     "title": "Lisa",
     "ko_text": "리사",
     "ko": "리사",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 833,
@@ -505,7 +505,7 @@
     "title": "Mika",
     "ko_text": "미카",
     "ko": "미카",
-    "weight": 1
+    "weight": 0.7
   },
   {
     "pageid": 1854,
@@ -641,7 +641,7 @@
     "title": "Sethos",
     "ko_text": "세토스",
     "ko": "세토스",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 96984,
@@ -697,7 +697,7 @@
     "title": "Thoma",
     "ko_text": "토마",
     "ko": "토마",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 144326,
@@ -712,49 +712,49 @@
     "ns": 0,
     "title": "Traveler",
     "ko_text": "여행자 아이테르 형 공 아이테르 루미네 루미네",
-    "ko": "여행자",
-    "weight": 0
+    "ko": "여행자(속성 자유)",
+    "weight": 0.8
   },
   {
     "pageid": 20855,
     "ns": 0,
     "title": "Traveler (Anemo)",
-    "weight": 0.1333,
+    "weight": 0.0833,
     "ko": "여행자 (바람)"
   },
   {
     "pageid": 148629,
     "ns": 0,
     "title": "Traveler (Dendro)",
-    "weight": 0.1333,
+    "weight": 0.0833,
     "ko": "여행자 (풀)"
   },
   {
     "pageid": 66912,
     "ns": 0,
     "title": "Traveler (Electro)",
-    "weight": 0.1333,
+    "weight": 0.0833,
     "ko": "여행자 (번개)"
   },
   {
     "pageid": 20854,
     "ns": 0,
     "title": "Traveler (Geo)",
-    "weight": 0.1333,
+    "weight": 0.0833,
     "ko": "여행자 (바위)"
   },
   {
     "pageid": 241454,
     "ns": 0,
     "title": "Traveler (Hydro)",
-    "weight": 0.1333,
+    "weight": 0.0833,
     "ko": "여행자 (물)"
   },
   {
     "pageid": 350860,
     "ns": 0,
     "title": "Traveler (Pyro)",
-    "weight": 0.1333,
+    "weight": 0.0833,
     "ko": "여행자 (불)"
   },
   {
@@ -793,49 +793,49 @@
     "ns": 0,
     "title": "Wonderland Manekin",
     "ko_text": "별인형 별인형 별인형·남성-- 별인형 별인형·여성--",
-    "ko": "별인형",
-    "weight": 0
+    "ko": "별인형(속성 자유)",
+    "weight": 0.8
   },
   {
     "pageid": 20855163,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1333,
+    "weight": 0.0666,
     "ko": "별인형 (바람)"
   },
   {
     "pageid": 148629564,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1333,
+    "weight": 0.0666,
     "ko": "별인형 (풀)"
   },
   {
     "pageid": 6691243541,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1333,
+    "weight": 0.0666,
     "ko": "별인형 (번개)"
   },
   {
     "pageid": 2085451654,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1333,
+    "weight": 0.0666,
     "ko": "별인형 (바위)"
   },
   {
     "pageid": 24145431211,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1333,
+    "weight": 0.0666,
     "ko": "별인형 (물)"
   },
   {
     "pageid": 35086065465,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.1333,
+    "weight": 0.0666,
     "ko": "별인형 (불)"
   },
   {
@@ -899,7 +899,7 @@
     "title": "Xinyan",
     "ko_text": "신염",
     "ko": "신염",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 20337,
@@ -939,7 +939,7 @@
     "title": "Yoimiya",
     "ko_text": "요이미야",
     "ko": "요이미야",
-    "weight": 1
+    "weight": 0.7
   },
   {
     "pageid": 357412,
@@ -955,7 +955,7 @@
     "title": "Yun Jin",
     "ko_text": "운근",
     "ko": "운근",
-    "weight": 0.8
+    "weight": 0.7
   },
   {
     "pageid": 1837,
@@ -1023,7 +1023,7 @@
     "title": "-",
     "ko_text": "-",
     "ko": "캐릭 선택권(와일드 카드)",
-    "weight": 0.1
+    "weight": 0.2
   },
   {
     "pageid": 528,

@@ -195,7 +195,7 @@
     "title": "Lava Dragon Statue",
     "ko_text": "용암룡 형상",
     "ko": "용암룡 형상",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 56641,
@@ -299,7 +299,7 @@
     "title": "Setekh Wenut",
     "ko_text": "바람 침식 모래 벌레",
     "ko": "바람 침식 모래 벌레",
-    "weight": 0.3
+    "weight": 0.1
   },
   {
     "pageid": 283218,
@@ -323,7 +323,7 @@
     "title": "Thunder Manifestation",
     "ko_text": "뇌음 의 권현",
     "ko": "뇌음의 권현",
-    "weight": 0.6
+    "weight": 0.4
   },
   {
     "pageid": 350862,

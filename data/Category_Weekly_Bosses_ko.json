@@ -11,7 +11,7 @@
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 1번방 (어려움)",
-    "weight": 0.1
+    "weight": 0.3
   },
   {
     "pageid": 4657,
@@ -19,7 +19,7 @@
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 2번방 (어려움)",
-    "weight": 0.1
+    "weight": 0.3
   },
   {
     "pageid": 4658,
@@ -27,7 +27,7 @@
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 3번방 (어려움)",
-    "weight": 0.1
+    "weight": 0.3
   },
   {
     "pageid": 4666,
@@ -35,7 +35,7 @@
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 1번방 (위험)",
-    "weight": 0
+    "weight": 0.4
   },
   {
     "pageid": 4667,
@@ -43,7 +43,7 @@
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 2번방 (위험)",
-    "weight": 0
+    "weight": 0.4
   },
   {
     "pageid": 4668,
@@ -51,7 +51,7 @@
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 3번방 (위험)",
-    "weight": 0
+    "weight": 0.4
   },
   {
     "pageid": 265823,
