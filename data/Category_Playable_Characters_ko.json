@@ -873,7 +873,7 @@
     "pageid": 227,
     "ns": 0,
     "title": "Xiao",
-    "ko_text": "소",
+    "ko_text": "소 금붕",
     "ko": "소",
     "weight": 0.8
   },
@@ -1039,6 +1039,14 @@
     "title": "Varka",
     "ko_text": "바르카",
     "ko": "바르카",
+    "weight": 1
+  },
+  {
+    "pageid": 392322,
+    "ns": 0,
+    "title": "Linnea",
+    "ko_text": "린네아",
+    "ko": "린네아",
     "weight": 1
   }
 ]
