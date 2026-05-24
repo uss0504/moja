@@ -106,7 +106,7 @@
     "title": "La Signora",
     "ko_text": "시뇨라 사그라든 화염 의 마녀",
     "ko": "(주보)시뇨라",
-    "weight": 0.8
+    "weight": 0.2
   },
   {
     "pageid": 350863,
@@ -138,7 +138,7 @@
     "title": "The Game Before the Gate",
     "ko_text": "문 앞 의 체스 매치 체스 킹 체스 퀸 승격한 킹 승화한 퀸",
     "ko": "동자물쇠 (*이전: 체스)",
-    "weight": 0.4
+    "weight": 0.2
   },
   {
     "pageid": 296271,
@@ -153,7 +153,15 @@
     "ns": 0,
     "title": "Heretic of the False Moon",
     "ko_text": "거짓된 달 의 이단아",
-    "ko": "(주보)도토레",
+    "ko": "(주보)도토레(1)",
+    "weight": 0.8
+  },
+  {
+    "pageid": 456582,
+    "ns": 0,
+    "title": "Exalted Master of the Heretical Path",
+    "ko_text": "이단의 성자",
+    "ko": "(주보)또토레(2)",
     "weight": 0.8
   }
 ]
