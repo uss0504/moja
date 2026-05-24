@@ -1053,12 +1053,14 @@
     "pageid": 216697,
     "ns": 0,
     "title": "Nicole",
-    "ko_text": "니콜"
+    "ko_text": "니콜",
+    "weight": 1
   },
   {
     "pageid": 452766,
     "ns": 0,
     "title": "Prune",
-    "ko_text": "프루네"
+    "ko_text": "프루네",
+    "weight": 1
   }
 ]
