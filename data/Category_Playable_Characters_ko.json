@@ -35,7 +35,7 @@
     "title": "Aloy",
     "ko_text": "에일로이",
     "ko": "에일로이",
-    "weight": 0.1
+    "weight": 0.15
   },
   {
     "pageid": 132,
@@ -899,7 +899,7 @@
     "title": "Xinyan",
     "ko_text": "신염",
     "ko": "신염",
-    "weight": 0.8
+    "weight": 0.6
   },
   {
     "pageid": 20337,
@@ -939,7 +939,7 @@
     "title": "Yoimiya",
     "ko_text": "요이미야",
     "ko": "요이미야",
-    "weight": 0.7
+    "weight": 0.8
   },
   {
     "pageid": 357412,
@@ -963,7 +963,7 @@
     "title": "Zhongli",
     "ko_text": "종려",
     "ko": "종려",
-    "weight": 0.9
+    "weight": 1
   },
   {
     "pageid": 413614,
@@ -1061,6 +1061,13 @@
     "ns": 0,
     "title": "Prune",
     "ko_text": "프루네",
+    "weight": 1
+  },
+  {
+    "pageid": 428102,
+    "ns": 0,
+    "title": "Lohen",
+    "ko_text": "로엔",
     "weight": 1
   }
 ]
