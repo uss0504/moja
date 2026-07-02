@@ -495,7 +495,7 @@
     "pageid": 316436,
     "ns": 0,
     "title": "Mavuika",
-    "ko_text": "마비카 하보림 키온고지",
+    "ko_text": "마비카",
     "ko": "마비카",
     "weight": 1
   },
@@ -1053,7 +1053,7 @@
     "pageid": 216697,
     "ns": 0,
     "title": "Nicole",
-    "ko_text": "니콜",
+    "ko_text": "니콜 라인",
     "weight": 1
   },
   {
@@ -1068,6 +1068,13 @@
     "ns": 0,
     "title": "Lohen",
     "ko_text": "로엔",
+    "weight": 1
+  },
+  {
+    "pageid": 44664,
+    "ns": 0,
+    "title": "Sandrone",
+    "ko_text": "산드로네",
     "weight": 1
   }
 ]
