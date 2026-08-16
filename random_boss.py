@@ -29,10 +29,8 @@ def secrets_choice(
         result.append(population[idx])
     return result
 
-''' 기존 system 랜덤
-import bisect
-from itertools import accumulate
-
+# 기존 system 랜덤
+''' 
 sysrand = random.SystemRandom()
 
 def sysrandom_choice(population, weights, k=1):
@@ -53,7 +51,7 @@ def sysrandom_choice(population, weights, k=1):
 
 # ---------- 데이터 로드 ----------
 all_items = []
-for path in glob.glob('data/*_Bosses_ko.json'):
+for path in glob.glob('../../data/*_Bosses_ko.json'):
     with open(path, 'r', encoding='utf-8') as f:
         try:
             items = json.load(f)
@@ -63,6 +61,7 @@ for path in glob.glob('data/*_Bosses_ko.json'):
 
 if not all_items:
     print("오류: 읽어올 데이터가 없습니다.")
+    # os.system("pause")
     # input("작업 완료 – 엔터 키를 눌러 종료...")
     exit()
 
@@ -84,13 +83,14 @@ ko_text_value = selected_obj.get('ko_text')
 en_value = selected_obj.get('title')
 
 if ko_value:
-    print(ko_value)
+    print(f"랜덤 보스: {ko_value}")
 elif ko_text_value:
-    print(ko_text_value)
+    print(f"랜덤 보스: {ko_text_value}")
 elif en_value:
-    print(en_value)
+    print(f"랜덤 보스: {en_value}")
 else:
     print("값이 없습니다.")
     print(json.dumps(selected_obj, ensure_ascii=False, indent=4))
 
+# os.system("pause")
 # input("작업 완료 – 엔터 키를 눌러 종료...")
