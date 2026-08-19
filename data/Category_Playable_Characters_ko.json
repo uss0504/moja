@@ -257,7 +257,7 @@
     "pageid": 384166,
     "ns": 0,
     "title": "Flins",
-    "ko_text": "키릴 추도미로비치 플린스",
+    "ko_text": "플린스",
     "ko": "플린스",
     "weight": 1
   },
@@ -1023,7 +1023,7 @@
     "title": "-",
     "ko_text": "-",
     "ko": "캐릭 선택권(와일드 카드)",
-    "weight": 0.2
+    "weight": 0.3
   },
   {
     "pageid": 528,
@@ -1053,7 +1053,8 @@
     "pageid": 216697,
     "ns": 0,
     "title": "Nicole",
-    "ko_text": "니콜 라인",
+    "ko_text": "니콜",
+    "ko": "니콜",
     "weight": 1
   },
   {
@@ -1076,5 +1077,26 @@
     "title": "Sandrone",
     "ko_text": "산드로네",
     "weight": 1
+  },
+  {
+    "pageid": 467681,
+    "ns": 0,
+    "title": "Alyosha",
+    "ko_text": "알료샤",
+    "weight": 1
+  },
+  {
+    "pageid": 467683,
+    "ns": 0,
+    "title": "Odette",
+    "ko_text": "오데트",
+    "weight": 1
+  },
+  {
+    "pageid": 477125,
+    "ns": 0,
+    "title": "Traveler (Cryo)",
+    "ko": "여행자(얼음)",
+    "weight": 0.0833
   }
 ]

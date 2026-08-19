@@ -364,5 +364,19 @@
     "ko_text": "파수꾼·타락 개안자 니힐리타",
     "ko": "파수꾼·타락",
     "weight": 1
+  },
+  {
+    "pageid": 477963,
+    "ns": 0,
+    "title": "Chimeric Winged Lion",
+    "ko_text": "날개 사자 키메라",
+    "weight": 1
+  },
+  {
+    "pageid": 477555,
+    "ns": 0,
+    "title": "Immortal Construct",
+    "ko_text": "불멸의 부산물",
+    "weight": 1
   }
 ]
