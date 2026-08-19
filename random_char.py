@@ -50,7 +50,7 @@ def sysrandom_choice(population, weights, k=1):
 '''
 
 # ① JSON 파일 읽기
-with open('../../data/Category_Playable_Characters_ko.json', 'r', encoding='utf-8') as f:
+with open('data/Category_Playable_Characters_ko.json', 'r', encoding='utf-8') as f:
     items = json.load(f)          # items는 list
 
 # ② 가중치 리스트 생성 (가중치가 없으면 기본값 1)

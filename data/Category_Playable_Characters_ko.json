@@ -713,49 +713,56 @@
     "title": "Traveler",
     "ko_text": "여행자 아이테르 형 공 아이테르 루미네 루미네",
     "ko": "여행자(속성 자유)",
-    "weight": 0.8
+    "weight": 0.7
   },
   {
     "pageid": 20855,
     "ns": 0,
     "title": "Traveler (Anemo)",
-    "weight": 0.0833,
+    "weight": 0.0714,
     "ko": "여행자 (바람)"
   },
   {
     "pageid": 148629,
     "ns": 0,
     "title": "Traveler (Dendro)",
-    "weight": 0.0833,
+    "weight": 0.0714,
     "ko": "여행자 (풀)"
   },
   {
     "pageid": 66912,
     "ns": 0,
     "title": "Traveler (Electro)",
-    "weight": 0.0833,
+    "weight": 0.0714,
     "ko": "여행자 (번개)"
   },
   {
     "pageid": 20854,
     "ns": 0,
     "title": "Traveler (Geo)",
-    "weight": 0.0833,
+    "weight": 0.0714,
     "ko": "여행자 (바위)"
   },
   {
     "pageid": 241454,
     "ns": 0,
     "title": "Traveler (Hydro)",
-    "weight": 0.0833,
+    "weight": 0.0714,
     "ko": "여행자 (물)"
   },
   {
     "pageid": 350860,
     "ns": 0,
     "title": "Traveler (Pyro)",
-    "weight": 0.0833,
+    "weight": 0.0714,
     "ko": "여행자 (불)"
+  },
+  {
+    "pageid": 477125,
+    "ns": 0,
+    "title": "Traveler (Cryo)",
+    "ko": "여행자(얼음)",
+    "weight": 0.0714
   },
   {
     "pageid": 21260,
@@ -794,49 +801,56 @@
     "title": "Wonderland Manekin",
     "ko_text": "별인형 별인형 별인형·남성-- 별인형 별인형·여성--",
     "ko": "별인형(속성 자유)",
-    "weight": 0.8
+    "weight": 0.6
   },
   {
     "pageid": 20855163,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.0666,
+    "weight": 0.0571,
     "ko": "별인형 (바람)"
   },
   {
     "pageid": 148629564,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.0666,
+    "weight": 0.0571,
     "ko": "별인형 (풀)"
   },
   {
     "pageid": 6691243541,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.0666,
+    "weight": 0.0571,
     "ko": "별인형 (번개)"
   },
   {
     "pageid": 2085451654,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.0666,
+    "weight": 0.0571,
     "ko": "별인형 (바위)"
   },
   {
     "pageid": 24145431211,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.0666,
+    "weight": 0.0571,
     "ko": "별인형 (물)"
   },
   {
     "pageid": 35086065465,
     "ns": 0,
     "title": "Wonderland Manekin",
-    "weight": 0.0666,
+    "weight": 0.0571,
     "ko": "별인형 (불)"
+  },
+  {
+    "pageid": 528,
+    "ns": 0,
+    "title": "Wonderland Manekin",
+    "weight": 0.0571,
+    "ko": "별인형 (얼음)"
   },
   {
     "pageid": 21260651658,
@@ -1026,14 +1040,6 @@
     "weight": 0.3
   },
   {
-    "pageid": 528,
-    "ns": 0,
-    "title": "-",
-    "ko_text": "-",
-    "ko": "-",
-    "weight": 0
-  },
-  {
     "pageid": 14459,
     "ns": 0,
     "title": "Varka",
@@ -1091,12 +1097,5 @@
     "title": "Odette",
     "ko_text": "오데트",
     "weight": 1
-  },
-  {
-    "pageid": 477125,
-    "ns": 0,
-    "title": "Traveler (Cryo)",
-    "ko": "여행자(얼음)",
-    "weight": 0.0833
   }
 ]

@@ -51,7 +51,7 @@ def sysrandom_choice(population, weights, k=1):
 
 # ---------- 데이터 로드 ----------
 all_items = []
-for path in glob.glob('../../data/*_Bosses_ko.json'):
+for path in glob.glob('data/*_Bosses_ko.json'):
     with open(path, 'r', encoding='utf-8') as f:
         try:
             items = json.load(f)
