@@ -505,7 +505,7 @@
     "title": "Mika",
     "ko_text": "미카",
     "ko": "미카",
-    "weight": 0.7
+    "weight": 0.6
   },
   {
     "pageid": 1854,
@@ -609,7 +609,7 @@
     "title": "Razor",
     "ko_text": "레이저",
     "ko": "레이저",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 15024,
@@ -1068,7 +1068,7 @@
     "ns": 0,
     "title": "Prune",
     "ko_text": "프루네",
-    "weight": 1
+    "weight": 0.9
   },
   {
     "pageid": 428102,
@@ -1096,6 +1096,20 @@
     "ns": 0,
     "title": "Odette",
     "ko_text": "오데트",
+    "weight": 1
+  },
+  {
+    "pageid": 467686,
+    "ns": 0,
+    "title": "Vesna",
+    "ko_text": "베스나",
+    "weight": 1
+  },
+  {
+    "pageid": 452743,
+    "ns": 0,
+    "title": "Vodyanitsa",
+    "ko_text": "보댜니차",
     "weight": 1
   }
 ]

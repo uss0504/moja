@@ -43,7 +43,7 @@
     "title": "Coral Defenders",
     "ko_text": "심해 용 도마뱀 무리",
     "ko": "심해 용 도마뱀 무리(연하궁)",
-    "weight": 0.3
+    "weight": 0.2
   },
   {
     "pageid": 45817,
@@ -377,6 +377,13 @@
     "ns": 0,
     "title": "Immortal Construct",
     "ko_text": "불멸의 부산물",
+    "weight": 1
+  },
+  {
+    "pageid": 490865,
+    "ns": 0,
+    "title": "Guardian Blade of Drifting Snow",
+    "ko_text": "방랑하는 눈의 수호자",
     "weight": 1
   }
 ]
