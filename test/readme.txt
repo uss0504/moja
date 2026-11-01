@@ -66,6 +66,8 @@ https://github.com/theBowja/genshin-db/tree/main/src/data/Korean
     혹은 :
     https://discord.com/channels/762314435867574273/1501526997405405244/1539625100301701260
 
+https://genshin-impact.fandom.com/wiki/Local_Legend#List_of_Local_Legends
+여기서 목록을 **수동으로** 가져와서 크롤링 해오기 / 아님 임시로 수동으로 만들어두기...
 
 웹서버로 호스팅?
 
