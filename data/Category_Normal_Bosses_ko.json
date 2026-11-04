@@ -37,7 +37,7 @@
     "title": "Coral Defenders",
     "ko_text": "심해 용 도마뱀 무리",
     "ko": "심해 용 도마뱀 무리(연하궁)",
-    "weight": 0.2
+    "weight": 0.6
   },
   {
     "pageid": 45817,
@@ -86,7 +86,7 @@
     "title": "Frostnight Herra",
     "ko_text": "서리밤 하늘 영주 영주\" normally means \"",
     "ko": "서리밤 하늘 영주",
-    "weight": 0.6
+    "weight": 0.8
   },
   {
     "pageid": 374,
@@ -128,14 +128,14 @@
     "title": "Icewind Suite",
     "ko_text": "얼음 바람 모음곡 코펠리아 의 장송 코펠리우스 의 겁벌",
     "ko": "코펠리아의 장송",
-    "weight": 0.3
+    "weight": 0.4
   },
   {
     "pageid": 241258,
     "title": "Icewind Suite",
     "ko_text": "얼음 바람 모음곡 코펠리아 의 장송 코펠리우스 의 겁벌",
     "ko": "코펠리우스의 겁벌",
-    "weight": 0.3
+    "weight": 0.4
   },
   {
     "pageid": 218950,
@@ -233,14 +233,14 @@
     "title": "Rhodeia of Loch",
     "ko_text": "물의 정령 로데이아",
     "ko": "물의 정령 로데이아",
-    "weight": 1
+    "weight": 0.8
   },
   {
     "pageid": 120575,
     "title": "Ruin Serpent",
     "ko_text": "유적 의 뱀",
     "ko": "유적의 뱀(층암 거연)",
-    "weight": 0.3
+    "weight": 0.7
   },
   {
     "pageid": 335063,
@@ -261,7 +261,7 @@
     "title": "Setekh Wenut",
     "ko_text": "바람 침식 모래 벌레",
     "ko": "바람 침식 모래 벌레",
-    "weight": 0
+    "weight": 0.2
   },
   {
     "pageid": 283218,
@@ -282,7 +282,7 @@
     "title": "Thunder Manifestation",
     "ko_text": "뇌음 의 권현",
     "ko": "뇌음의 권현",
-    "weight": 0.6
+    "weight": 0.7
   },
   {
     "pageid": 350862,

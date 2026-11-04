@@ -1,4 +1,4 @@
-import discord, random, dotenv, os
+import discord, random, dotenv, json, os
 from discord.ext import commands
 
 dotenv.load_dotenv()
@@ -52,6 +52,47 @@ CONTROL_MESSAGE_ID = 1481681635626848301       # 초기값: None
 CONTROL_CHANNEL_ID = 1437940729547849888
 # 모자 디코 채널 - 1437940729547849888
 # 테스트 채널 - 1435258015077892096
+
+def load_control_message_ids():
+    config_path = os.path.join(os.path.dirname(__file__), "config.json")
+    with open(config_path, encoding="utf-8") as config_file:
+        config = json.load(config_file)
+
+    discord_config = config.get("discord", {})
+    if not isinstance(discord_config, dict):
+        raise ValueError("'discord' 설정은 객체여야 합니다.")
+
+    configured_channels = discord_config.get("control_channels", [])
+    if not isinstance(configured_channels, list):
+        raise ValueError("'discord.control_channels' 설정은 배열이어야 합니다.")
+
+    if not configured_channels:
+        return {CONTROL_CHANNEL_ID: CONTROL_MESSAGE_ID}
+
+    channel_ids = {}
+    for index, channel_config in enumerate(configured_channels):
+        if not isinstance(channel_config, dict):
+            raise ValueError(f"discord.control_channels[{index}] 설정은 객체여야 합니다.")
+
+        channel_id = channel_config.get("channel_id")
+        message_id = channel_config.get("message_id")
+        if isinstance(channel_id, bool) or not isinstance(channel_id, int) or channel_id <= 0:
+            raise ValueError(f"discord.control_channels[{index}].channel_id는 양의 정수여야 합니다.")
+        if message_id is not None and (
+            isinstance(message_id, bool) or not isinstance(message_id, int) or message_id <= 0
+        ):
+            raise ValueError(
+                f"discord.control_channels[{index}].message_id는 양의 정수 또는 null이어야 합니다."
+            )
+        if channel_id in channel_ids:
+            raise ValueError(f"제어 채널 ID가 중복되었습니다: {channel_id}")
+
+        channel_ids[channel_id] = message_id
+
+    return channel_ids
+
+
+CONTROL_MESSAGE_IDS = load_control_message_ids()
 
 # ────────────────────────────────────────────────────────────────────────
 # 3️⃣ 리모컨 이모지 → 명령 매핑
@@ -111,37 +152,43 @@ async def calc_cmd(ctx):
     return await ctx.send(out_text)
 
 # ────────────────────────────────────────────────────────────────────────
-# 5️⃣ 제어 메시지 전송(봇이 준비됐을 때 한 번만)
+# 5️⃣ 설정된 각 채널에 제어 메시지 전송
 @bot.event
 async def on_ready():
-    global CONTROL_MESSAGE_ID
-    if CONTROL_MESSAGE_ID is None:
-        channel = bot.get_channel(CONTROL_CHANNEL_ID)
-        if channel:
+    for channel_id, message_id in CONTROL_MESSAGE_IDS.items():
+        channel = bot.get_channel(channel_id)
+        if channel is None:
+            try:
+                channel = await bot.fetch_channel(channel_id)
+            except (discord.NotFound, discord.Forbidden) as error:
+                print(f"제어 채널 {channel_id}에 접근할 수 없습니다: {error}")
+                continue
+
+        if message_id is None:
             msg = await channel.send(
                 "아래 이모티콘을 선택해 명령어를 실행해주세요.\n"
                 "🎲 – 랜덤 숫자(1-20) 뽑기\n"
                 "🙍‍♂️ – 랜덤 캐릭터 뽑기\n"
                 "👾 – 랜덤 보스 뽑기\n"
-                "결과 메세지는 일정 시간 뒤에 사라집니다." # DELETE_AFTER 값에 따라 달라짐.
+                "결과 메세지는 일정 시간 뒤에 사라집니다."
             )
-            CONTROL_MESSAGE_ID = msg.id
+            CONTROL_MESSAGE_IDS[channel_id] = msg.id
 
-            # 6️⃣ 미리 이모지 추가
-            for emoji in EMOJI_CMD_MAP.keys():
+            for emoji in EMOJI_CMD_MAP:
                 await msg.add_reaction(emoji)
-    print(f'Bot ready – Control message id: {CONTROL_MESSAGE_ID}')
+
+    print(f"Bot ready - Control messages: {CONTROL_MESSAGE_IDS}")
 
 # ────────────────────────────────────────────────────────────────────────
 # 6️⃣ 반응을 받아서 명령 실행
 @bot.event
 async def on_raw_reaction_add(payload):
     # 1️⃣ 제어 메시지인지 확인
-    if payload.message_id != CONTROL_MESSAGE_ID:
+    if CONTROL_MESSAGE_IDS.get(payload.channel_id) != payload.message_id:
         return
 
     # 2️⃣ **봇 자신의 반응은 무시** (버그 방지)
-    if payload.user_id == bot.user.id:
+    if bot.user is not None and payload.user_id == bot.user.id:
         return
 
     # 3️⃣ 이모지 매핑
