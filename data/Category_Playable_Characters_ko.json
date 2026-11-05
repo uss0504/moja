@@ -1,972 +1,984 @@
 [
   {
-    "pageid": 832,
     "title": "Aether",
-    "weight": 0
+    "weight": 0,
+    "id": 1
   },
   {
-    "pageid": 383745,
     "title": "Aino",
     "ko_text": "아이노",
     "ko": "아이노",
-    "weight": 1
+    "weight": 1,
+    "id": 2
   },
   {
-    "pageid": 15003,
     "title": "Albedo",
     "ko_text": "알베도",
     "ko": "알베도",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 3
   },
   {
-    "pageid": 151669,
     "title": "Alhaitham",
     "ko_text": "알하이탐",
     "ko": "알하이탐",
-    "weight": 1
+    "weight": 1,
+    "id": 4
   },
   {
-    "pageid": 67688,
     "title": "Aloy",
     "ko_text": "에일로이",
     "ko": "에일로이",
-    "weight": 0.15
+    "weight": 0.15,
+    "id": 5
   },
   {
-    "pageid": 132,
     "title": "Amber",
     "ko_text": "엠버",
     "ko": "엠버",
-    "weight": 1
+    "weight": 1,
+    "id": 6
   },
   {
-    "pageid": 68837,
     "title": "Arataki Itto",
     "ko_text": "아라타키 이토",
     "ko": "아라타키 이토",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 7
   },
   {
-    "pageid": 117187,
     "title": "Arlecchino",
     "ko_text": "아를레키노",
     "ko": "아를레키노",
-    "weight": 1
+    "weight": 1,
+    "id": 8
   },
   {
-    "pageid": 1810,
     "title": "Baizhu",
     "ko_text": "백출",
     "ko": "백출",
-    "weight": 1
+    "weight": 1,
+    "id": 9
   },
   {
-    "pageid": 155,
     "title": "Barbara",
     "ko_text": "바바라",
     "ko": "바바라",
-    "weight": 1
+    "weight": 1,
+    "id": 10
   },
   {
-    "pageid": 239,
     "title": "Beidou",
     "ko_text": "북두",
     "ko": "북두",
-    "weight": 0.7
+    "weight": 0.7,
+    "id": 11
   },
   {
-    "pageid": 280,
     "title": "Bennett",
     "ko_text": "베넷",
     "ko": "베넷",
-    "weight": 1
+    "weight": 1,
+    "id": 12
   },
   {
-    "pageid": 155051,
     "title": "Candace",
     "ko_text": "캔디스",
     "ko": "캔디스",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 13
   },
   {
-    "pageid": 228387,
     "title": "Charlotte",
     "ko_text": "샤를로트",
     "ko": "샤를로트",
-    "weight": 1
+    "weight": 1,
+    "id": 14
   },
   {
-    "pageid": 316435,
     "title": "Chasca",
     "ko_text": "차스카",
     "ko": "차스카",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 15
   },
   {
-    "pageid": 246332,
     "title": "Chevreuse",
     "ko_text": "슈브르즈",
     "ko": "슈브르즈",
-    "weight": 1
+    "weight": 1,
+    "id": 16
   },
   {
-    "pageid": 229042,
     "title": "Chiori",
     "ko_text": "치오리",
     "ko": "치오리",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 17
   },
   {
-    "pageid": 512,
     "title": "Chongyun",
     "ko_text": "중운",
     "ko": "중운",
-    "weight": 1
+    "weight": 1,
+    "id": 18
   },
   {
-    "pageid": 316439,
     "title": "Citlali",
     "ko_text": "시틀라리",
     "ko": "시틀라리",
-    "weight": 1
+    "weight": 1,
+    "id": 19
   },
   {
-    "pageid": 236145,
     "title": "Clorinde",
     "ko_text": "클로린드",
     "ko": "클로린드",
-    "weight": 1
+    "weight": 1,
+    "id": 20
   },
   {
-    "pageid": 444,
     "title": "Collei",
     "ko_text": "콜레이",
     "ko": "콜레이",
-    "weight": 1
+    "weight": 1,
+    "id": 21
   },
   {
-    "pageid": 3311,
     "title": "Cyno",
     "ko_text": "사이노",
     "ko": "사이노",
-    "weight": 1
+    "weight": 1,
+    "id": 22
   },
   {
-    "pageid": 263806,
     "title": "Dahlia",
     "ko_text": "달리아",
     "ko": "달리아",
-    "weight": 0.5
+    "weight": 0.5,
+    "id": 23
   },
   {
-    "pageid": 151676,
     "title": "Dehya",
     "ko_text": "데히야",
     "ko": "데히야",
-    "weight": 1
+    "weight": 1,
+    "id": 24
   },
   {
-    "pageid": 151,
     "title": "Diluc",
     "ko_text": "다이루크",
     "ko": "다이루크",
-    "weight": 1
+    "weight": 1,
+    "id": 25
   },
   {
-    "pageid": 7121,
     "title": "Diona",
     "ko_text": "디오나",
     "ko": "디오나",
-    "weight": 1
+    "weight": 1,
+    "id": 26
   },
   {
-    "pageid": 144336,
     "title": "Dori",
     "ko_text": "도리",
     "ko": "도리",
-    "weight": 1
+    "weight": 1,
+    "id": 27
   },
   {
-    "pageid": 244769,
     "title": "Emilie",
     "ko_text": "에밀리",
     "ko": "에밀리",
-    "weight": 1
+    "weight": 1,
+    "id": 28
   },
   {
-    "pageid": 366780,
     "title": "Escoffier",
     "ko_text": "에스코피에",
     "ko": "에스코피에",
-    "weight": 1
+    "weight": 1,
+    "id": 29
   },
   {
-    "pageid": 45761,
     "title": "Eula",
     "ko_text": "유라",
     "ko": "유라",
-    "weight": 1
+    "weight": 1,
+    "id": 30
   },
   {
-    "pageid": 175366,
     "title": "Faruzan",
     "ko_text": "파루잔",
     "ko": "파루잔",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 31
   },
   {
-    "pageid": 230,
     "title": "Fischl",
     "ko_text": "피슬 에이미",
     "ko": "피슬",
-    "weight": 1
+    "weight": 1,
+    "id": 32
   },
   {
-    "pageid": 384166,
     "title": "Flins",
     "ko_text": "플린스",
     "ko": "플린스",
-    "weight": 1
+    "weight": 1,
+    "id": 33
   },
   {
-    "pageid": 236174,
     "title": "Freminet",
     "ko_text": "프레미네",
     "ko": "프레미네",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 34
   },
   {
-    "pageid": 236143,
     "title": "Furina",
     "ko_text": "푸리나",
     "ko": "푸리나",
-    "weight": 1
+    "weight": 1,
+    "id": 35
   },
   {
-    "pageid": 276281,
     "title": "Gaming",
     "ko_text": "가명",
     "ko": "가명",
-    "weight": 1
+    "weight": 1,
+    "id": 36
   },
   {
-    "pageid": 1791,
     "title": "Ganyu",
     "ko_text": "감우",
     "ko": "감우",
-    "weight": 1
+    "weight": 1,
+    "id": 37
   },
   {
-    "pageid": 61982,
     "title": "Gorou",
     "ko_text": "고로",
     "ko": "고로",
-    "weight": 0.7
+    "weight": 0.7,
+    "id": 38
   },
   {
-    "pageid": 14745,
     "title": "Hu Tao",
     "ko_text": "호두",
     "ko": "호두",
-    "weight": 1
+    "weight": 1,
+    "id": 39
   },
   {
-    "pageid": 15925,
     "title": "Iansan",
     "ko_text": "얀사",
     "ko": "얀사",
-    "weight": 1
+    "weight": 1,
+    "id": 40
   },
   {
-    "pageid": 324043,
     "title": "Ifa",
     "ko_text": "이파",
     "ko": "이파",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 41
   },
   {
-    "pageid": 382551,
     "title": "Ineffa",
     "ko_text": "이네파",
     "ko": "이네파",
-    "weight": 1
+    "weight": 1,
+    "id": 42
   },
   {
-    "pageid": 141,
     "title": "Jean",
     "ko_text": "진",
     "ko": "진",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 43
   },
   {
-    "pageid": 316433,
     "title": "Kachina",
     "ko_text": "카치나",
     "ko": "카치나",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 44
   },
   {
-    "pageid": 56633,
     "title": "Kaedehara Kazuha",
     "ko_text": "카에데하라 카즈하",
     "ko": "카에데하라 카즈하",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 45
   },
   {
-    "pageid": 130,
     "title": "Kaeya",
     "ko_text": "케이아",
     "ko": "케이아",
-    "weight": 1
+    "weight": 1,
+    "id": 46
   },
   {
-    "pageid": 472,
     "title": "Kamisato Ayaka",
     "ko_text": "카미사토 아야카",
     "ko": "카미사토 아야카",
-    "weight": 1
+    "weight": 1,
+    "id": 47
   },
   {
-    "pageid": 60191,
     "title": "Kamisato Ayato",
     "ko_text": "카미사토 아야토",
     "ko": "카미사토 아야토",
-    "weight": 1
+    "weight": 1,
+    "id": 48
   },
   {
-    "pageid": 157099,
     "title": "Kaveh",
     "ko_text": "카베",
     "ko": "카베",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 49
   },
   {
-    "pageid": 1858,
     "title": "Keqing",
     "ko_text": "각청",
     "ko": "각청",
-    "weight": 1
+    "weight": 1,
+    "id": 50
   },
   {
-    "pageid": 316432,
     "title": "Kinich",
     "ko_text": "키니치",
     "ko": "키니치",
-    "weight": 1
+    "weight": 1,
+    "id": 51
   },
   {
-    "pageid": 219692,
     "title": "Kirara",
     "ko_text": "키라라",
     "ko": "키라라",
-    "weight": 1
+    "weight": 1,
+    "id": 52
   },
   {
-    "pageid": 251,
     "title": "Klee",
     "ko_text": "클레",
     "ko": "클레",
-    "weight": 1
+    "weight": 1,
+    "id": 53
   },
   {
-    "pageid": 61983,
     "title": "Kujou Sara",
     "ko_text": "쿠죠 사라",
     "ko": "쿠죠 사라",
-    "weight": 1
+    "weight": 1,
+    "id": 54
   },
   {
-    "pageid": 74453,
     "title": "Kuki Shinobu",
     "ko_text": "쿠키 시노부",
     "ko": "쿠키 시노부",
-    "weight": 1
+    "weight": 1,
+    "id": 55
   },
   {
-    "pageid": 349121,
     "title": "Lan Yan",
     "ko_text": "남연",
     "ko": "남연",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 56
   },
   {
-    "pageid": 383744,
     "title": "Lauma",
     "ko_text": "라우마",
     "ko": "라우마",
-    "weight": 1
+    "weight": 1,
+    "id": 57
   },
   {
-    "pageid": 168576,
     "title": "Layla",
     "ko_text": "레일라",
     "ko": "레일라",
-    "weight": 1
+    "weight": 1,
+    "id": 58
   },
   {
-    "pageid": 140,
     "title": "Lisa",
     "ko_text": "리사",
     "ko": "리사",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 59
   },
   {
-    "pageid": 833,
     "title": "Lumine",
-    "weight": 0
+    "weight": 0,
+    "id": 60
   },
   {
-    "pageid": 15926,
     "title": "Lynette",
     "ko_text": "리넷",
     "ko": "리넷",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 61
   },
   {
-    "pageid": 15927,
     "title": "Lyney",
     "ko_text": "리니",
     "ko": "리니",
-    "weight": 1
+    "weight": 1,
+    "id": 62
   },
   {
-    "pageid": 316436,
     "title": "Mavuika",
     "ko_text": "마비카",
     "ko": "마비카",
-    "weight": 1
+    "weight": 1,
+    "id": 63
   },
   {
-    "pageid": 167228,
     "title": "Mika",
     "ko_text": "미카",
     "ko": "미카",
-    "weight": 0.6
+    "weight": 0.6,
+    "id": 64
   },
   {
-    "pageid": 1854,
     "title": "Mona",
     "ko_text": "모나",
     "ko": "모나",
-    "weight": 1
+    "weight": 1,
+    "id": 65
   },
   {
-    "pageid": 316434,
     "title": "Mualani",
     "ko_text": "말라니",
     "ko": "말라니",
-    "weight": 1
+    "weight": 1,
+    "id": 66
   },
   {
-    "pageid": 151675,
     "title": "Nahida",
     "ko_text": "나히다",
     "ko": "나히다",
-    "weight": 1
+    "weight": 1,
+    "id": 67
   },
   {
-    "pageid": 236161,
     "title": "Navia",
     "ko_text": "나비아",
     "ko": "나비아",
-    "weight": 1
+    "weight": 1,
+    "id": 68
   },
   {
-    "pageid": 384167,
     "title": "Nefer",
     "ko_text": "네페르",
     "ko": "네페르",
-    "weight": 1
+    "weight": 1,
+    "id": 69
   },
   {
-    "pageid": 168604,
     "title": "Neuvillette",
     "ko_text": "느비예트",
     "ko": "느비예트",
-    "weight": 1
+    "weight": 1,
+    "id": 70
   },
   {
-    "pageid": 151671,
     "title": "Nilou",
     "ko_text": "닐루",
     "ko": "닐루",
-    "weight": 1
+    "weight": 1,
+    "id": 71
   },
   {
-    "pageid": 242,
     "title": "Ningguang",
     "ko_text": "응광",
     "ko": "응광",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 72
   },
   {
-    "pageid": 156,
     "title": "Noelle",
     "ko_text": "노엘",
     "ko": "노엘",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 73
   },
   {
-    "pageid": 316438,
     "title": "Ororon",
     "ko_text": "올로룬",
     "ko": "올로룬",
-    "weight": 1
+    "weight": 1,
+    "id": 74
   },
   {
-    "pageid": 1835,
     "title": "Qiqi",
     "ko_text": "치치",
     "ko": "치치",
-    "weight": 1
+    "weight": 1,
+    "id": 75
   },
   {
-    "pageid": 16028,
     "title": "Raiden Shogun",
     "ko_text": "라이덴 쇼군",
     "ko": "라이덴 쇼군",
-    "weight": 1
+    "weight": 1,
+    "id": 76
   },
   {
-    "pageid": 176,
     "title": "Razor",
     "ko_text": "레이저",
     "ko": "레이저",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 77
   },
   {
-    "pageid": 15024,
     "title": "Rosaria",
     "ko_text": "로자리아",
     "ko": "로자리아",
-    "weight": 1
+    "weight": 1,
+    "id": 78
   },
   {
-    "pageid": 63989,
     "title": "Sangonomiya Kokomi",
     "ko_text": "산고노미야 코코미",
     "ko": "산고노미야 코코미",
-    "weight": 1
+    "weight": 1,
+    "id": 79
   },
   {
-    "pageid": 57432,
     "title": "Sayu",
     "ko_text": "사유",
     "ko": "사유",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 80
   },
   {
-    "pageid": 301808,
     "title": "Sethos",
     "ko_text": "세토스",
     "ko": "세토스",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 81
   },
   {
-    "pageid": 96984,
     "title": "Shenhe",
     "ko_text": "신학",
     "ko": "신학",
-    "weight": 1
+    "weight": 1,
+    "id": 82
   },
   {
-    "pageid": 68079,
     "title": "Shikanoin Heizou",
     "ko_text": "시카노인 헤이조",
     "ko": "시카노인 헤이조",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 83
   },
   {
-    "pageid": 236166,
     "title": "Sigewinne",
     "ko_text": "시그윈",
     "ko": "시그윈",
-    "weight": 1
+    "weight": 1,
+    "id": 84
   },
   {
-    "pageid": 26731,
     "title": "Skirk",
     "ko_text": "스커크",
     "ko": "스커크",
-    "weight": 1
+    "weight": 1,
+    "id": 85
   },
   {
-    "pageid": 1609,
     "title": "Sucrose",
     "ko_text": "설탕 설탕( 사탕(",
     "ko": "설탕",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 86
   },
   {
-    "pageid": 2180,
     "title": "Tartaglia",
     "ko_text": "타르탈리아",
     "ko": "타르탈리아",
-    "weight": 1
+    "weight": 1,
+    "id": 87
   },
   {
-    "pageid": 63994,
     "title": "Thoma",
     "ko_text": "토마",
     "ko": "토마",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 88
   },
   {
-    "pageid": 144326,
     "title": "Tighnari",
     "ko_text": "타이나리",
     "ko": "타이나리",
-    "weight": 1
+    "weight": 1,
+    "id": 89
   },
   {
-    "pageid": 136,
     "title": "Traveler",
     "ko_text": "여행자 아이테르 형 공 아이테르 루미네 루미네",
     "ko": "여행자(속성 자유)",
-    "weight": 0.7
+    "weight": 0.7,
+    "id": 90
   },
   {
-    "pageid": 20855,
     "title": "Traveler (Anemo)",
     "weight": 0.0714,
-    "ko": "여행자 (바람)"
+    "ko": "여행자 (바람)",
+    "id": 91
   },
   {
-    "pageid": 148629,
     "title": "Traveler (Dendro)",
     "weight": 0.0714,
-    "ko": "여행자 (풀)"
+    "ko": "여행자 (풀)",
+    "id": 92
   },
   {
-    "pageid": 66912,
     "title": "Traveler (Electro)",
     "weight": 0.0714,
-    "ko": "여행자 (번개)"
+    "ko": "여행자 (번개)",
+    "id": 93
   },
   {
-    "pageid": 20854,
     "title": "Traveler (Geo)",
     "weight": 0.0714,
-    "ko": "여행자 (바위)"
+    "ko": "여행자 (바위)",
+    "id": 94
   },
   {
-    "pageid": 241454,
     "title": "Traveler (Hydro)",
     "weight": 0.0714,
-    "ko": "여행자 (물)"
+    "ko": "여행자 (물)",
+    "id": 95
   },
   {
-    "pageid": 350860,
     "title": "Traveler (Pyro)",
     "weight": 0.0714,
-    "ko": "여행자 (불)"
+    "ko": "여행자 (불)",
+    "id": 96
   },
   {
-    "pageid": 477125,
     "title": "Traveler (Cryo)",
     "ko": "여행자(얼음)",
-    "weight": 0.0714
+    "weight": 0.0714,
+    "id": 97
   },
   {
-    "pageid": 21260,
     "title": "Traveler (Unaligned)",
     "weight": 0,
-    "ko": "여행자 (무속성)"
+    "ko": "여행자 (무속성)",
+    "id": 98
   },
   {
-    "pageid": 350191,
     "title": "Varesa",
     "ko_text": "바레사",
     "ko": "바레사",
-    "weight": 1
+    "weight": 1,
+    "id": 99
   },
   {
-    "pageid": 216,
     "title": "Venti",
     "ko_text": "벤티",
     "ko": "벤티",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 100
   },
   {
-    "pageid": 179077,
     "title": "Wanderer",
     "ko_text": "방랑자",
     "ko": "방랑자",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 101
   },
   {
-    "pageid": 408444,
     "title": "Wonderland Manekin",
     "ko_text": "별인형 별인형 별인형·남성-- 별인형 별인형·여성--",
     "ko": "별인형(속성 자유)",
-    "weight": 0.6
+    "weight": 0.6,
+    "id": 102
   },
   {
-    "pageid": 20855163,
     "title": "Wonderland Manekin",
     "weight": 0.0571,
-    "ko": "별인형 (바람)"
+    "ko": "별인형 (바람)",
+    "id": 103
   },
   {
-    "pageid": 148629564,
     "title": "Wonderland Manekin",
     "weight": 0.0571,
-    "ko": "별인형 (풀)"
+    "ko": "별인형 (풀)",
+    "id": 104
   },
   {
-    "pageid": 6691243541,
     "title": "Wonderland Manekin",
     "weight": 0.0571,
-    "ko": "별인형 (번개)"
+    "ko": "별인형 (번개)",
+    "id": 105
   },
   {
-    "pageid": 2085451654,
     "title": "Wonderland Manekin",
     "weight": 0.0571,
-    "ko": "별인형 (바위)"
+    "ko": "별인형 (바위)",
+    "id": 106
   },
   {
-    "pageid": 24145431211,
     "title": "Wonderland Manekin",
     "weight": 0.0571,
-    "ko": "별인형 (물)"
+    "ko": "별인형 (물)",
+    "id": 107
   },
   {
-    "pageid": 35086065465,
     "title": "Wonderland Manekin",
     "weight": 0.0571,
-    "ko": "별인형 (불)"
+    "ko": "별인형 (불)",
+    "id": 108
   },
   {
-    "pageid": 528,
     "title": "Wonderland Manekin",
     "weight": 0.0571,
-    "ko": "별인형 (얼음)"
+    "ko": "별인형 (얼음)",
+    "id": 109
   },
   {
-    "pageid": 21260651658,
     "title": "Wonderland Manekin",
     "weight": 0,
-    "ko": "별인형 (무속성)"
+    "ko": "별인형 (무속성)",
+    "id": 110
   },
   {
-    "pageid": 236151,
     "title": "Wriothesley",
     "ko_text": "라이오슬리",
     "ko": "라이오슬리",
-    "weight": 1
+    "weight": 1,
+    "id": 111
   },
   {
-    "pageid": 224,
     "title": "Xiangling",
     "ko_text": "향릉",
     "ko": "향릉",
-    "weight": 1
+    "weight": 1,
+    "id": 112
   },
   {
-    "pageid": 276277,
     "title": "Xianyun",
     "ko_text": "한운 한( 운--",
     "ko": "한운",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 113
   },
   {
-    "pageid": 227,
     "title": "Xiao",
     "ko_text": "소 금붕",
     "ko": "소",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 114
   },
   {
-    "pageid": 316437,
     "title": "Xilonen",
     "ko_text": "실로닌",
     "ko": "실로닌",
-    "weight": 1
+    "weight": 1,
+    "id": 115
   },
   {
-    "pageid": 246,
     "title": "Xingqiu",
     "ko_text": "행추",
     "ko": "행추",
-    "weight": 1
+    "weight": 1,
+    "id": 116
   },
   {
-    "pageid": 13692,
     "title": "Xinyan",
     "ko_text": "신염",
     "ko": "신염",
-    "weight": 0.6
+    "weight": 0.6,
+    "id": 117
   },
   {
-    "pageid": 20337,
     "title": "Yae Miko",
     "ko_text": "야에 미코",
     "ko": "야에 미코",
-    "weight": 1
+    "weight": 1,
+    "id": 118
   },
   {
-    "pageid": 45762,
     "title": "Yanfei",
     "ko_text": "연비",
     "ko": "연비",
-    "weight": 1
+    "weight": 1,
+    "id": 119
   },
   {
-    "pageid": 14602,
     "title": "Yaoyao",
     "ko_text": "요요",
     "ko": "요요",
-    "weight": 1
+    "weight": 1,
+    "id": 120
   },
   {
-    "pageid": 127111,
     "title": "Yelan",
     "ko_text": "야란",
     "ko": "야란",
-    "weight": 1
+    "weight": 1,
+    "id": 121
   },
   {
-    "pageid": 57433,
     "title": "Yoimiya",
     "ko_text": "요이미야",
     "ko": "요이미야",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 122
   },
   {
-    "pageid": 357412,
     "title": "Yumemizuki Mizuki",
     "ko_text": "유메미즈키 미즈키",
     "ko": "유메미즈키 미즈키",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 123
   },
   {
-    "pageid": 14942,
     "title": "Yun Jin",
     "ko_text": "운근",
     "ko": "운근",
-    "weight": 0.7
+    "weight": 0.7,
+    "id": 124
   },
   {
-    "pageid": 1837,
     "title": "Zhongli",
     "ko_text": "종려",
     "ko": "종려",
-    "weight": 1
+    "weight": 1,
+    "id": 125
   },
   {
-    "pageid": 413614,
     "title": "Durin",
     "ko_text": "꼬마 두린",
     "ko": "두린",
-    "weight": 1
+    "weight": 1,
+    "id": 126
   },
   {
-    "pageid": 384165,
     "title": "Jahoda",
     "ko_text": "야호다",
     "ko": "야호다",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 127
   },
   {
-    "pageid": 409975,
     "title": "Manekin",
-    "weight": 0
+    "weight": 0,
+    "id": 128
   },
   {
-    "pageid": 408468,
     "title": "Manekina",
-    "weight": 0
+    "weight": 0,
+    "id": 129
   },
   {
-    "pageid": 144376,
     "title": "Columbina",
     "ko_text": "콜롬비나",
     "ko": "콜롬비나",
-    "weight": 1
+    "weight": 1,
+    "id": 130
   },
   {
-    "pageid": 425906,
     "title": "Illuga",
     "ko_text": "일루가",
     "ko": "일루가",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 131
   },
   {
-    "pageid": 425891,
     "title": "Zibai",
     "ko_text": "자백",
     "ko": "자백",
-    "weight": 1
+    "weight": 1,
+    "id": 132
   },
   {
-    "pageid": 527,
     "title": "-",
     "ko_text": "-",
     "ko": "캐릭 선택권(와일드 카드)",
-    "weight": 0.3
+    "weight": 0.3,
+    "id": 133
   },
   {
-    "pageid": 14459,
     "title": "Varka",
     "ko_text": "바르카",
     "ko": "바르카",
-    "weight": 1
+    "weight": 1,
+    "id": 134
   },
   {
-    "pageid": 392322,
     "title": "Linnea",
     "ko_text": "린네아",
     "ko": "린네아",
-    "weight": 1
+    "weight": 1,
+    "id": 135
   },
   {
-    "pageid": 216697,
     "title": "Nicole",
     "ko_text": "니콜",
     "ko": "니콜",
-    "weight": 1
+    "weight": 1,
+    "id": 136
   },
   {
-    "pageid": 452766,
     "title": "Prune",
     "ko_text": "프루네",
-    "weight": 0.9
+    "weight": 0.9,
+    "id": 137
   },
   {
-    "pageid": 428102,
     "title": "Lohen",
     "ko_text": "로엔",
-    "weight": 1
+    "weight": 1,
+    "id": 138
   },
   {
-    "pageid": 44664,
     "title": "Sandrone",
     "ko_text": "산드로네",
-    "weight": 1
+    "weight": 1,
+    "id": 139
   },
   {
-    "pageid": 467681,
     "title": "Alyosha",
     "ko_text": "알료샤",
-    "weight": 1
+    "weight": 1,
+    "id": 140
   },
   {
-    "pageid": 467683,
     "title": "Odette",
     "ko_text": "오데트",
-    "weight": 1
+    "weight": 1,
+    "id": 141
   },
   {
-    "pageid": 467686,
     "title": "Vesna",
     "ko_text": "베스나",
-    "weight": 1
+    "weight": 1,
+    "id": 142
   },
   {
-    "pageid": 452743,
     "title": "Vodyanitsa",
     "ko_text": "보댜니차",
-    "weight": 1
+    "weight": 1,
+    "id": 143
+  },
+  {
+    "title": "Mitya",
+    "ko_text": "미탸",
+    "weight": 1,
+    "id": 144
+  },
+  {
+    "title": "Valeriy",
+    "ko_text": "발레리",
+    "weight": 1,
+    "id": 145
   }
 ]

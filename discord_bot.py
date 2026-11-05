@@ -187,7 +187,7 @@ async def on_raw_reaction_add(payload):
     if CONTROL_MESSAGE_IDS.get(payload.channel_id) != payload.message_id:
         return
 
-    # 2️⃣ **봇 자신의 반응은 무시** (버그 방지)
+    # 2️⃣ 봇 자신의 반응은 무시
     if bot.user is not None and payload.user_id == bot.user.id:
         return
 

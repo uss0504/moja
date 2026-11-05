@@ -69,6 +69,11 @@ https://github.com/theBowja/genshin-db/tree/main/src/data/Korean
 https://genshin-impact.fandom.com/wiki/Local_Legend#List_of_Local_Legends
 여기서 목록을 **수동으로** 가져와서 크롤링 해오기 / 아님 임시로 수동으로 만들어두기...
 
+pageid 가 아닌 수를 지정해서 랜덤을 뽑을 때 임의의 항목을 만들때 불편하지 않게.
+pageid 가 중복되면 뒤 항목은 무시되는 경우가 있음.
+
+중복 방지가 되어있으니 secret 랜덤을 제외하고 파이썬 기본 랜덤이나 system 랜덤을 사용해보는건?
+
 웹서버로 호스팅?
 
 밸런스:

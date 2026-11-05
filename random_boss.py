@@ -12,7 +12,13 @@ CONFIG_PATH = BASE_DIR / "config.json"
 HISTORY_PATH = DATA_DIR / "boss_history.json"
 
 
-def boss_identifier(item: dict) -> str:
+def boss_identifier(item: dict, source: Optional[str] = None) -> str:
+    item_id = item.get("id")
+    if item_id is not None:
+        if source is not None:
+            return f"id:{source}:{item_id}"
+        return f"id:{item_id}"
+
     page_id = item.get("pageid")
     if page_id is not None:
         return f"pageid:{page_id}"
@@ -28,15 +34,20 @@ def adjusted_weights(
     population: Sequence[dict],
     history: Sequence[str],
     recent_multipliers: Sequence[float],
+    identifiers: Optional[Sequence[str]] = None,
 ) -> List[float]:
+    if identifiers is not None and len(identifiers) != len(population):
+        raise ValueError("population과 identifiers의 길이가 같아야 합니다.")
+
     recent_positions = {}
     for position, identifier in enumerate(history):
         recent_positions.setdefault(identifier, position)
 
     weights = []
-    for item in population:
+    for index, item in enumerate(population):
         weight = item.get("weight", 1)
-        position = recent_positions.get(boss_identifier(item))
+        identifier = identifiers[index] if identifiers is not None else boss_identifier(item)
+        position = recent_positions.get(identifier)
         if position is not None and position < len(recent_multipliers):
             weight *= recent_multipliers[position]
         weights.append(weight)
@@ -109,23 +120,33 @@ def main() -> None:
         )
 
     all_items = []
+    identifiers = []
     for path in sorted(DATA_DIR.glob("*_Bosses_ko.json")):
         with path.open("r", encoding="utf-8") as file:
             items = json.load(file)
         if not isinstance(items, list):
             raise ValueError(f"보스 데이터는 목록이어야 합니다: {path}")
         all_items.extend(items)
+        identifiers.extend(
+            boss_identifier(item, path.stem) for item in items
+        )
 
     if not all_items:
         raise ValueError(f"보스 데이터를 찾을 수 없습니다: {DATA_DIR}")
 
+    if len(identifiers) != len(set(identifiers)):
+        raise ValueError("보스 데이터에 중복된 id가 있습니다.")
+
     history = load_history(HISTORY_PATH)
-    weights = adjusted_weights(all_items, history, recent_multipliers)
+    weights = adjusted_weights(all_items, history, recent_multipliers, identifiers)
     selected_obj = secrets_choice(all_items, weights=weights, k=1)[0]
 
     history_limit = len(recent_multipliers)
     if history_limit:
-        history.insert(0, boss_identifier(selected_obj))
+        selected_index = next(
+            index for index, item in enumerate(all_items) if item is selected_obj
+        )
+        history.insert(0, identifiers[selected_index])
         history = history[:history_limit]
     else:
         history = []

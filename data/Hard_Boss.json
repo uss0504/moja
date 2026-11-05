@@ -1,0 +1,268 @@
+[
+  {
+    "title": "Churldric — Ladler of Broth",
+    "ko_text": "츄드릭 「수프 배식자」",
+    "ko": "츄드릭 (몬드 돈만항구 동쪽)",
+    "weight": 1,
+    "id": 1
+  },
+  {
+    "title": "Ruler of the Chizhang Mountains",
+    "ko_text": "적장순악부군",
+    "ko": "적장순악부군 (침옥 협곡)",
+    "weight": 1,
+    "id": 2
+  },
+  {
+    "title": "Ninianne of the Lake",
+    "ko_text": "호숫가의 니니안느",
+    "ko": "니니안느 (폰타인 엘리나스 북쪽)",
+    "weight": 1,
+    "id": 3
+  },
+  {
+    "title": "Vivianne of the Lake",
+    "ko_text": "호숫가의 비비안느",
+    "ko": "비비안느 (폰타인 무기비경 근처)",
+    "weight": 1,
+    "id": 4
+  },
+  {
+    "title": "Yseut — 'he Cold Hand'",
+    "ko_text": "이졸트「콜드 핸드」",
+    "ko": "이졸트 (폰타인 아를주보 근처)",
+    "weight": 1,
+    "id": 5
+  },
+  {
+    "title": "Deianeira of Snezhevna — Risky Investment Actuary",
+    "ko_text": "스네즈브나의 데이아네이라「위험 투자 계리사」",
+    "ko": "데이아네이라 (폰타인 수선화탑 동남쪽 수중 근처)",
+    "weight": 1,
+    "id": 6
+  },
+  {
+    "title": "Automated Supercomputing Field Generator — Verified Type Aur001'",
+    "ko_text": "초고속 자동연산 타입 역장 발생 장치 검증 타입 Aur001",
+    "ko": "초고속 연산장치 (폰타인 과학원 북쪽)",
+    "weight": 1,
+    "id": 7
+  },
+  {
+    "title": "Liam — 'Fading Rainbow'",
+    "ko_text": "리암「빛바랜 무지개」",
+    "ko": "리암 (폰타인 호수위 버드나무 북쪽)",
+    "weight": 1,
+    "id": 8
+  },
+  {
+    "title": "Rocky Avildsen — 'A Gentleman Personality'",
+    "ko_text": "록키·아빌드센「신사의 품격」",
+    "ko": "록키 (폰타인 호수위 버드나무 동쪽)",
+    "weight": 1,
+    "id": 9
+  },
+  {
+    "title": "Cineas — Unreturned Envoy",
+    "ko_text": "키네아스「돌아오지 않는 특사」",
+    "ko": "키네아스 (지난날의 바다)",
+    "weight": 1,
+    "id": 10
+  },
+  {
+    "title": "'Sappho Amidst the Waves' — Waterborne Lutenist",
+    "ko_text": "「파도의 사포」물 위의 악사",
+    "ko": "사포 (나타 특성비경 앞)",
+    "weight": 1,
+    "id": 11
+  },
+  {
+    "title": "Cocijo — Spirit Sent From Clouds Above",
+    "ko_text": "코시호 구름에서 강림한 영혼",
+    "ko": "코시호 (나타 샘물마을 신상 근처)",
+    "weight": 1,
+    "id": 12
+  },
+  {
+    "title": "Polychrome Tri-Stars",
+    "ko_text": "이색 삼연성",
+    "ko": "이색 삼연성 (나타 깃룡 보스 근처)",
+    "weight": 1,
+    "id": 13
+  },
+  {
+    "title": "'Balachko' — Shadows Like Blades Deepening",
+    "ko_text": "「바라치코」겹겹의 칼",
+    "ko": "바라치코 (나타 흑요석 성유물 비경 근처)",
+    "weight": 1,
+    "id": 14
+  },
+  {
+    "title": "'Bronzelock' — Capricious Warbeast",
+    "ko_text": "동 자물쇠 변화무쌍한 전쟁 괴수",
+    "ko": "동자물쇠 (나타 오치카나타)",
+    "weight": 1,
+    "id": 15
+  },
+  {
+    "title": "Rilai — Frozen Collar",
+    "ko_text": "릴라이 얼어붙은 옷깃",
+    "ko": "릴라이 (나타 연기주인 서남쪽)",
+    "weight": 1,
+    "id": 16
+  },
+  {
+    "title": "The Peak — Mutant Species That Fell into the Volcano",
+    "ko_text": "산봉우리 화산에 떨어진 이종",
+    "ko": "산봉우리 (나타 비옥한터전 서쪽)",
+    "weight": 1,
+    "id": 17
+  },
+  {
+    "title": "'Battlegoat' and 'Ironclaw'",
+    "ko_text": "「무쇠 발톱」과 「전투 산양」",
+    "ko": "무쇠발톱, 전투산양 (나타 회랑 성유물 비경 근처)",
+    "weight": 1,
+    "id": 18
+  },
+  {
+    "title": "'Infinitesimal' — A Fiery Stone Gathers No Moss",
+    "ko_text": "「조약돌」이끼조차 자랄 수 없는",
+    "ko": "조약돌 (나타 태고의 신성한 산)",
+    "weight": 1,
+    "id": 19
+  },
+  {
+    "title": "The Last Survivor of Tenochtzitoc",
+    "ko_text": "테노치즈톡 최후의 생존자",
+    "ko": "테노치즈톡 (나타 느긋한 휴양촌)",
+    "weight": 1,
+    "id": 20
+  },
+  {
+    "title": "Sigurd — The One Who Swore to Hunt the Hunt",
+    "ko_text": "시구르드 「광란의 사냥」을 사냥하겠다고 맹세한 자",
+    "ko": "시구르드 (노드크라이 뼈이끼황야 동쪽)",
+    "weight": 1,
+    "id": 21
+  },
+  {
+    "title": "Crab Tsar — Lord of the Palace",
+    "ko_text": "「차르 꽃게」궁전 주인",
+    "ko": "차르꽃게 (노드크라이 서리달마을 지하)",
+    "weight": 1,
+    "id": 22
+  },
+  {
+    "title": "Raskolnikov — Poruchik",
+    "ko_text": "라스콜니코프 중위",
+    "ko": "리스콜니코프 (노드크라이 실험설계국 북서쪽 옥상)",
+    "weight": 1,
+    "id": 23
+  },
+  {
+    "title": "Hexadecatonic Mandragora — Nurtured Phylad",
+    "ko_text": "16배 큰 만드라고라 재배된 식물",
+    "ko": "만드라고라 (노드크라이 니콜 거점 남쪽)",
+    "weight": 1,
+    "id": 24
+  },
+  {
+    "title": "The Homesick Lone Wolf",
+    "ko_text": "「고향이 그리운 늑대」황야의 송곳니",
+    "ko": "늑구 (노드크라이 안개산 동쪽)",
+    "weight": 1,
+    "id": 25
+  },
+  {
+    "title": "Hiljetta — Black-Barrel Hag",
+    "ko_text": "힐예타 「검은 총 할망구」",
+    "ko": "힐예타 (노드크라이 악몽늪지 북동쪽)",
+    "weight": 1,
+    "id": 26
+  },
+  {
+    "title": "Prism Slime — Creation's Afterglow",
+    "ko_text": "무지개 슬라임 창조의 빛이 남긴 여광",
+    "ko": "무지개 슬라임 (서리달)",
+    "weight": 1,
+    "id": 27
+  },
+  {
+    "title": "Mushteshir — The Pioneer That Gazes at the Stars",
+    "ko_text": "「무슈테시르」뭇별을 바라보는 선구자",
+    "ko": "무슈테시르 (서리달 우기엔권역 북쪽)",
+    "weight": 1,
+    "id": 28
+  },
+  {
+    "title": "'Maha Vasudevayaputra' — Blessed With Excess",
+    "ko_text": "「마하바수데바야푸트라」아주 토실토실한",
+    "ko": "마하바수데바야푸트라 (공간신전 모래위 누각)",
+    "weight": 1,
+    "id": 29
+  },
+  {
+    "title": "Churin — Apprentice Sculptor, Martial Master",
+    "ko_text": "추린 무를 깨우친 수습 조각가",
+    "ko": "추린 (스네즈나야 오색얼음마을 동쪽)",
+    "weight": 1,
+    "id": 30
+  },
+  {
+    "title": "Bandersnatch — Grounded Snowhawk",
+    "ko_text": "보랏빛 습격자 땅굴새",
+    "ko": "보랏빛 습격자 (스네즈나야 오색얼음마을 지하)",
+    "weight": 1,
+    "id": 31
+  },
+  {
+    "title": "Furiosa — Guardian of What Is No More",
+    "ko_text": "퓨리오사 지킬 것을 잃은 자",
+    "ko": "퓨리오사 (스네즈나야 무기비경 앞)",
+    "weight": 1,
+    "id": 32
+  },
+  {
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 1번방 (극한)",
+    "weight": 0.5,
+    "id": 33
+  },
+  {
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 2번방 (극한)",
+    "weight": 0.5,
+    "id": 34
+  },
+  {
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 3번방 (극한)",
+    "weight": 0.5,
+    "id": 35
+  },
+  {
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 1번방 (절망)",
+    "weight": 0.7,
+    "id": 36
+  },
+  {
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 2번방 (절망)",
+    "weight": 0.7,
+    "id": 37
+  },
+  {
+    "title": "-",
+    "ko_text": "-",
+    "ko": "지맥 3번방 (절망)",
+    "weight": 0.7,
+    "id": 38
+  }
+]

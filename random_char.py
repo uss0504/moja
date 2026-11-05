@@ -53,6 +53,12 @@ def sysrandom_choice(population, weights, k=1):
 with open('data/Category_Playable_Characters_ko.json', 'r', encoding='utf-8') as f:
     items = json.load(f)          # items는 list
 
+item_ids = [obj.get('id') for obj in items]
+if any(not isinstance(item_id, int) or isinstance(item_id, bool) for item_id in item_ids):
+    raise ValueError("캐릭터 데이터에 id가 없거나 올바르지 않습니다.")
+if len(item_ids) != len(set(item_ids)):
+    raise ValueError("캐릭터 데이터에 중복된 id가 있습니다.")
+
 # ② 가중치 리스트 생성 (가중치가 없으면 기본값 1)
 weights = [obj.get('weight', 1) for obj in items]
 

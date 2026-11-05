@@ -1,0 +1,93 @@
+==List of Local Legends==
+See corresponding achievement pages under the [[#Achievements|achievements]] section for gameplay notes on each Local Legend.
+
+===Mondstadt===
+* {{Enemy|Churldric|text=Churldric — Ladler of Broth}}
+
+===Liyue===
+* {{Enemy|Geovishap|text=Ruler of the Chizhang Mountains: Yiji & Ruler of the Chizhang Mountains: Tianyu}}
+
+===Fontaine===
+The Local Legends Mageblade Corrouge, Deianeira and Cineas are not initially accessible, instead requiring a corresponding World Quest that must be completed in order to access them.
+
+;Underwater
+Due to the different attack mechanics while [[Diving]], all Fontainian underwater Local Legends have weaknesses that can be exploited using certain [[Xenochromatic Creature]] attacks to make them lose percentage-based [[HP]] and/or interrupt their attacks.
+
+* {{Enemy|Blubberbeast Local Legend|text=Dobharcu, Lord of the Hidden — Legendary Repeller of the Great Seahorse, Defender of Countless Blubberbeasts|link=Blubberbeast}}
+* {{Enemy|Blubberbeast Local Legend|text=Fading Veteran — The Grand Fleet's Gravekeeper|link=Blubberbeast}}
+* {{Enemy|Hunter's Ray Local Legend|text=Angelica, Fairy Knight Twin & Medoro, Fairy Knight Twin|link=Hunter's Ray}}
+* {{Enemy|Hunter's Ray Local Legend|text=Murgleis, Sword of the Gorge & Cortana, Sword of the Gorge|link=Hunter's Ray}}
+* {{Enemy|Sternshield Crab Local Legend|text=Iron Viscount — Spin to Win|link=Sternshield Crab}}
+* {{Enemy|Sternshield Crab Local Legend|text=Ocean Circuit Judge — Giant Enemy Crab|link=Sternshield Crab}}
+* {{Enemy|Cherubic Sea Hare|text=Luachra the Brilliant — Guardian of "Paradise"}}
+* {{Enemy|Hat Jellyfish|text=Chassanion — Trick Bullet}}
+* {{Enemy|Hat Jellyfish|text=Mageblade Corrouge — With the Purewater Tide It Came}}
+
+;Land
+* {{Enemy|Tainted Water-Splitting Phantasm|text=Ninianne of the Lake — Rift-Subduing Lake Spirit}}
+* {{Enemy|Tainted Water-Spouting Phantasm|text=Vivianne of the Lake — Rift-Subduing Lake Spirit}}
+* {{Enemy|Frost Operative|text=Yseut — "The Cold Hand"}}
+* {{Enemy|Wind Operative|text=Deianeira of Snezhevna — Risky Investment Actuary}}
+* {{Enemy|Arithmetic Enhancer Mek|text=Automated Supercomputing Field Generator — Verified Type Aur001}}
+* {{Enemy|Liam|text=Liam — "Fading Rainbow"}}
+* {{Enemy|Rocky Avildsen|text=Rocky Avildsen — "A Gentleman Personality"}}
+* {{Enemy|Primordial Bathysmal Vishap|text=Cineas — Unreturned Envoy}}
+
+===Natlan===
+Unlike previous nations, most Natlanese Local Legends each have two additional achievements for fulfilling certain additional requirements; these achievements have to be done successively with each new spawn &mdash; it is not possible to get two achievements in a single encounter. Their achievements are found under the ''[[Duelist: Series I]]'', ''[[Duelist: Series II]]'', and ''[[Duelist: Series III]]'' achievement categories rather than the ''[[Wonders of the World]]'' category used by the previous Local Legends. The only exception to this feature is The Last Survivor of Tenochtzitoc.
+
+All Local Legends, except Infinitesimal, are immediately accessible to the player.
+
+;Night's Trials
+These Local Legends are accessed through [[Nightsoul Totem]]s to take part in challenge fights called Night's Trials. Upon teleporting to {{LL|"Atlatl's Blessing"|,}} the player is forced to use their [[Traveler]]. Other Night's Trials retain the team the player was using.
+
+* {{Enemy|"He Never Dies"|text="He Never Dies" — Dragon Defier}}
+* {{Enemy|Foliar-Swift Wayob Manifestation|text="Ichcahuipilli's Aegis" — Will of Scales Resilient}}
+* {{Enemy|Rock-Cavernous Wayob Manifestation|text="Atlatl's Blessing" — Will of Plumes Swift}}
+* {{Enemy|Yumkasaurus Warrior: Flowing Skyfire|text=Cihuacoatl of Chimeric Bone — Once Walked With the Lord of Xibalba}}
+* {{Enemy|Tepetlisaurus Warrior: Rockbreaker Blade|text="Tlatzacuilotl" — Explorer of the Golden City}}
+* {{Enemy|Flow-Inverted Wayob Manifestation|text="Chimalli's Shade" — Will of Shields Horned}}
+* {{Enemy|Qucusaurus Warrior: Heartstar Hammer|text="Ironbeard" — The Fire That Forges All}}
+* {{Enemy|Biting-Cold Wayob Manifestation|text="Potapo's Solidarity" — Will of Rivalry and Battle}}
+* {{Enemy|Burning-Aflame Wayob Manifestation|text="Tupayo's Aid" — Will of Honor and Glory}}
+* {{Enemy|Iktomisaurus|text="Spirit of the Fallen Dawnstar" — All-Twisting Obsidian Storm}}
+* {{Enemy|Thundering Wayob Manifestation|text="Tupu's Lushness" — Vessel for the Will to Grow}}
+* {{Enemy|Tatankasaurus Warrior: Spiritlight Chaser|text=Reji — Launch and Leap}}
+
+;Overworld
+* {{Enemy|Koholasaurus Warrior: Waveshuttler|text="Sappho Amidst the Waves" — Waterborne Lutenist}}
+* {{Enemy|Cocijo|text=Cocijo — Spirit Sent From Clouds Above}}
+* {{Enemy|Fatui Skirmisher - Pyroslinger Bracer|text=Polychrome Tri-Stars: Vasily}}<!-- These three have random "titles" (names) as commission fatui -->
+* {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|text=Polychrome Tri-Stars: Sidorenko}}
+* {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|text=Polychrome Tri-Stars: Nomokonov}}
+* {{Enemy|Fatui Pyro Agent|text="Balachko" — Shadows Like Blades Deepening}}
+* {{Enemy|Ruin Drake: Earthguard|text="Bronzelock" — Capricious Warbeast}}
+* {{Enemy|Iktomisaurus Warrior: Cryocrystal_Cannon|text=Rilai — Frozen Collar}}
+* {{Enemy|The Peak|text=The Peak — Mutant Species That Fell into the Volcano}}
+* {{Enemy|"Battlegoat" and "Ironclaw"}}
+* {{Enemy|Eroding Avatar of Lava|text="Infinitesimal" — A Fiery Stone Gathers No Moss}}
+* {{Enemy|The Last Survivor of Tenochtzitoc (Local Legend)|text=The Last Survivor of Tenochtzitoc — Actor: Papar}}
+
+===Nod-Krai===
+The Local Legends Sigurd, Crab Tsar, Raskolnikov, Prism Slime, and Mushteshir are not initially accessible, instead requiring a corresponding [[World Quest]] that must be completed in order to fight them. The other Local Legends do not have this restriction.
+
+* {{Enemy|Sigurd (Local Legend)|text=Sigurd — The One Who Swore to Hunt the Hunt}}
+* {{Enemy|Crab Tsar|text=Crab Tsar — Lord of the Palace}} 
+* {{Enemy|Battle-Hardened Fireblade Shock Trooper|text=Raskolnikov — Poruchik|link=Oprichniki Fireblade Shock Trooper}}
+* {{Enemy|Hexadecatonic Mandragora|text=Hexadecatonic Mandragora — Nurtured Phylad}}
+* {{Enemy|"The Homesick Lone Wolf"|text="The Homesick Lone Wolf" — Fangs of the Wilderness}}
+* {{Enemy|Hiljetta (Local Legend)|text=Hiljetta — Black-Barrel Hag}}
+* {{Enemy|Prism Slime|text=Prism Slime — Creation's Afterglow}}
+* {{Enemy|Mushteshir|text=Mushteshir — The Pioneer That Gazes at the Stars}}
+
+===Temple of Space===
+The Local Legend "Maha Vasudevayaputra" is not initially accessible, instead requiring partial completion of the World Quest ''[[Unofficial Chronicle of the Desert Pavilion]]'' before being accessible.
+
+* {{Enemy|Battle-Hardened Grounded Geoshroom|text="Maha Vasudevayaputra" — Blessed With Excess|link=Grounded Geoshroom}}
+
+===Snezhnaya===
+All Local Legends are not initially accessible, instead requiring completion of the Archon Quest ''[[Gunfire in the Silent Lands]]''. Bandersnatch additionally requires partial completion of ''[[Great Deeds on the Tundra]]''.
+
+* {{Enemy|Churin (Local Legend)|text=Churin — Apprentice Sculptor, Martial Master}}
+* {{Enemy|Bandersnatch|text=Bandersnatch — Grounded Snowhawk|link=Chimeric Burrowbeast}}
+* {{Enemy|Furiosa (Local Legend)|text=Furiosa — Guardian of What Is No More|link=Voywolf Hunter}}

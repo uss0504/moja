@@ -1,146 +1,146 @@
 [
   {
-    "pageid": 2635,
     "title": "Weekly Boss",
-    "weight": 0
+    "weight": 0,
+    "id": 1
   },
   {
-    "pageid": 4656,
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 1번방 (어려움)",
-    "weight": 0.3
+    "weight": 0.3,
+    "id": 2
   },
   {
-    "pageid": 4657,
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 2번방 (어려움)",
-    "weight": 0.3
+    "weight": 0.3,
+    "id": 3
   },
   {
-    "pageid": 4658,
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 3번방 (어려움)",
-    "weight": 0.3
+    "weight": 0.3,
+    "id": 4
   },
   {
-    "pageid": 4666,
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 1번방 (위험)",
-    "weight": 0.2
+    "weight": 0.2,
+    "id": 5
   },
   {
-    "pageid": 4667,
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 2번방 (위험)",
-    "weight": 0.2
+    "weight": 0.2,
+    "id": 6
   },
   {
-    "pageid": 4668,
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 3번방 (위험)",
-    "weight": 0.2
+    "weight": 0.2,
+    "id": 7
   },
   {
-    "pageid": 265823,
     "title": "All-Devouring Narwhal",
     "ko_text": "별을 삼킨 고래",
     "ko": "(주보)별을 삼킨 고래",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 8
   },
   {
-    "pageid": 10595,
     "title": "Andrius",
     "ko_text": "안드리우스 북풍 의 왕랑 울프 의 영주",
     "ko": "(주보)안드리우스",
-    "weight": 0.4
+    "weight": 0.4,
+    "id": 9
   },
   {
-    "pageid": 45884,
     "title": "Azhdaha (Weekly Boss)",
     "ko": "(주보)야타용왕",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 10
   },
   {
-    "pageid": 16121,
     "title": "Childe",
     "ko_text": "귀공자",
     "ko": "(주보)타르탈리아",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 11
   },
   {
-    "pageid": 179233,
     "title": "Everlasting Lord of Arcane Wisdom",
     "ko_text": "칠엽 적조 의 비밀주 정기( 의 신",
     "ko": "(주보)정기의 신, 스카라무슈",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 12
   },
   {
-    "pageid": 219932,
     "title": "Guardian of Apep's Oasis",
     "ko_text": "종막 오아시스 의 파수꾼 기원 오아시스 의 파수꾼 아펩 의 오아시스 파수꾼",
     "ko": "(주보)아펩",
-    "weight": 0.6
+    "weight": 0.6,
+    "id": 13
   },
   {
-    "pageid": 80341,
     "title": "La Signora",
     "ko_text": "시뇨라 사그라든 화염 의 마녀",
     "ko": "(주보)시뇨라",
-    "weight": 0.2
+    "weight": 0.2,
+    "id": 14
   },
   {
-    "pageid": 350863,
     "title": "Lord of Eroded Primal Fire",
     "ko_text": "침식된 근원 의 불꽃 주인",
     "ko": "(주보)그소요토스",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 15
   },
   {
-    "pageid": 120800,
     "title": "Magatsu Mitake Narukami no Mikoto",
     "ko_text": "마가츠 미타케 나루카미 노 미코토",
     "ko": "(주보)라이덴",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 16
   },
   {
-    "pageid": 1758,
     "title": "Stormterror Dvalin",
     "ko_text": "열공의 마룡",
     "ko": "(주보)드발린",
-    "weight": 0
+    "weight": 0,
+    "id": 17
   },
   {
-    "pageid": 371008,
     "title": "The Game Before the Gate",
     "ko_text": "문 앞 의 체스 매치 체스 킹 체스 퀸 승격한 킹 승화한 퀸",
-    "ko": "동자물쇠 (*이전: 체스)",
-    "weight": 0.2
+    "ko": "(주보)체스",
+    "weight": 0.2,
+    "id": 18
   },
   {
-    "pageid": 296271,
     "title": "The Knave",
     "ko_text": "아를레키노 두 세계 불의 잔재",
     "ko": "(주보)아를레키노",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 19
   },
   {
-    "pageid": 322766,
     "title": "Heretic of the False Moon",
     "ko_text": "거짓된 달 의 이단아",
     "ko": "(주보)도토레(1)",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 20
   },
   {
-    "pageid": 456582,
     "title": "Exalted Master of the Heretical Path",
     "ko_text": "이단 의 성자",
     "ko": "(주보)또토레(2)",
-    "weight": 0.8
+    "weight": 0.8,
+    "id": 21
   }
 ]
