@@ -134,13 +134,12 @@ DISCORD_TOKEN=your_token_here
 기본적인 데이터 구조 예시는 다음과 같습니다.
 
 ```json
-  {
-    "pageid": 230,
-    "ns": 0,
+ {
     "title": "Fischl",
     "ko_text": "피슬 에이미",
     "ko": "피슬",
-    "weight": 1
+    "weight": 1,
+    "id": 32
   }
 ```
 

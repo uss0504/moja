@@ -227,42 +227,42 @@
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 1번방 (극한)",
-    "weight": 0.5,
+    "weight": 2.5,
     "id": 33
   },
   {
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 2번방 (극한)",
-    "weight": 0.5,
+    "weight": 2.5,
     "id": 34
   },
   {
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 3번방 (극한)",
-    "weight": 0.5,
+    "weight": 2.5,
     "id": 35
   },
   {
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 1번방 (절망)",
-    "weight": 0.7,
+    "weight": 1.5,
     "id": 36
   },
   {
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 2번방 (절망)",
-    "weight": 0.7,
+    "weight": 1.5,
     "id": 37
   },
   {
     "title": "-",
     "ko_text": "-",
     "ko": "지맥 3번방 (절망)",
-    "weight": 0.7,
+    "weight": 1.5,
     "id": 38
   }
 ]

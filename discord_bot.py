@@ -100,6 +100,7 @@ EMOJI_CMD_MAP = {
     '🎲': 'roll',      # 주사위 굴리기
     '🙍‍♂️': 'randchar',      # 랜덤캐릭
     '👾': 'randboss',    # 랜덤보스
+    '😈': 'randboss_hard' # 하드모드
 }
 
 # ────────────────────────────────────────────────────────────────────────
@@ -151,6 +152,25 @@ async def calc_cmd(ctx):
     out_text = stdout.decode().strip()
     return await ctx.send(out_text)
 
+@bot.command(name='randboss_hard')
+@auto_delete(DELETE_AFTER)
+async def calc_cmd(ctx):
+    # 다른 파이썬 스크립트 실행해서 그 결과를 보여줌
+    # 비동기 방식으로 실행 (python3 calc.py)
+    process = await asyncio.create_subprocess_exec(
+        "python3", "random_boss_hard.py",
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE
+    )
+    stdout, stderr = await process.communicate()
+
+    if process.returncode != 0:
+        await ctx.send(f"❌ 오류 발생:\n{stderr.decode().strip()}")
+        return
+
+    out_text = stdout.decode().strip()
+    return await ctx.send(out_text)
+
 # ────────────────────────────────────────────────────────────────────────
 # 5️⃣ 설정된 각 채널에 제어 메시지 전송
 @bot.event
@@ -170,6 +190,7 @@ async def on_ready():
                 "🎲 – 랜덤 숫자(1-20) 뽑기\n"
                 "🙍‍♂️ – 랜덤 캐릭터 뽑기\n"
                 "👾 – 랜덤 보스 뽑기\n"
+                "😈 - 하드모드 보스 뽑기\n"
                 "결과 메세지는 일정 시간 뒤에 사라집니다."
             )
             CONTROL_MESSAGE_IDS[channel_id] = msg.id
